@@ -1,8 +1,6 @@
-# 🌟 Awesome Vision-Language Models (VLMs) 🌟
+# Awesome Vision-Language Models (VLMs)👀
 
-[![Awesome](https://awesome.re/badge-flat-svg)](https://awesome.re)
-[![GitHub stars](https://img.shields.io/github/stars/your-username/awesome-vision-language-models?style=social)](https://github.com/your-username/awesome-vision-language-models)
-[![Last Updated](https://img.shields.io/badge/updated-August%202024-brightgreen)](https://github.com/your-username/awesome-vision-language-models/commits/main)
+[![Last Updated](https://img.shields.io/badge/updated-March%202025-brightpurple)](https://github.com/your-username/awesome-vision-language-models/commits/main)
 [![License](https://img.shields.io/badge/license-MIT-blue)](https://github.com/your-username/awesome-vision-language-models/blob/main/LICENSE)
 
 A curated hub for researchers and developers exploring **Vision-Language Models (VLMs)** and **Multimodal Learning**. Includes cutting-edge models, papers, tools, and best practices.
