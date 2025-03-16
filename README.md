@@ -54,7 +54,7 @@ A comprehensive technical resource for researchers exploring **Vision-Language M
 - **CLIP** - [Dual-encoder architecture with ~400M parameters, using a Vision Transformer (ViT, e.g., ViT-L/14) for vision encoding and a Transformer for text encoding. Trained contrastively on 400M image-text pairs for multimodal alignment](https://arxiv.org/pdf/2103.00020)    
 - **FLAVA** - [Unified transformer architecture with separate image and text encoders plus a multimodal encoder, designed to handle vision, language, and multimodal reasoning tasks simultaneously](https://arxiv.org/pdf/2112.04482)
 
-### 🔸**Recent papers**
+### 📌**Recent papers**
 - [Visual-RFT: Visual Reinforcement Fine-Tuning](https://arxiv.org/pdf/2503.01785)  
 - [Quantifying Memorization and Retriever Performance in Retrieval-Augmented Vision-Language Models](https://arxiv.org/pdf/2502.13836)  
 - [Large Language Diffusion Models](https://arxiv.org/pdf/2502.09992)  
