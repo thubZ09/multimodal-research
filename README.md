@@ -302,6 +302,9 @@ optimizer = DPAdam(
 - **4-bit QAT** - [Quantization-aware training via bitsandbytes (3.2× speedup)](https://github.com/TimDettmers/bitsandbytes)  
 - **Flash Attention** - [Memory-efficient attention with xFormers (2.8× speedup)](https://github.com/Dao-AILab/flash-attention)  
 - **Layer Dropping** - [Structural pruning via torch.prune (1.9× speedup)](https://paperswithcode.com/method/layerdrop)  
+
+---
+
 ## 📌Emerging Applications 
 ### → Healthcare
 - Surgical VLM: 91% instrument tracking
