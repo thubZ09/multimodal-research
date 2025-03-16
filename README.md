@@ -115,7 +115,7 @@ A comprehensive technical resource for researchers exploring **Vision-Language M
 #### **Additional Datasets**
 - **Open Images** - [9M images with multi-label annotations](https://docs.ultralytics.com/datasets/detect/open-images-v7/)  
 - **Hateful Memes** - [10K memes for hate speech detection](https://paperswithcode.com/dataset/hateful-memes)  
-- **EuroSAT** (2019) - [27K satellite images for land use classification](https://github.com/phelber/eurosat)  
+- **EuroSAT** - [27K satellite images for land use classification](https://github.com/phelber/eurosat)  
 
 ---
 
