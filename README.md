@@ -78,7 +78,7 @@ A comprehensive technical resource for researchers exploring **Vision-Language M
 
 ## 📊 Datasets & Benchmarks
 
-### **Core Training Datasets**
+#### **Core Training Datasets**
 - **COCO** - [Contains 328K images, each paired with 5 captions for image captioning and VQA](https://huggingface.co/datasets/HuggingFaceM4/COCO)  
 - **Conceptual Captions** - [3M web-mined image-text pairs for pretraining VLMs](https://huggingface.co/datasets/conceptual_captions)  
 - **LAION-5B** - [5B image-text pairs from Common Crawl for large-scale pretraining](https://laion.ai/blog/laion-5b/)  
@@ -303,12 +303,11 @@ optimizer = DPAdam(
 
 ## 🛠️ Tools & Resources
 
-### **Core Tools**
-- **VLMEvalKit** - [Unified evaluation framework supporting 20+ benchmarks (Apache-2.0)](https://github.com/open-compass/VLMEvalKit)  
-- **OpenVLM** - [Training framework with FSDP/DeepSpeed integration (CC-BY-NC)](https://github.com/salesforce/OpenVLM)  
+#### **Core Tools**
+- **VLMEvalKit** - [Unified evaluation framework supporting 20+ benchmarks (Apache-2.0)](https://github.com/open-compass/VLMEvalKit)   
 - **VLM-BiasCheck** - [Bias auditing toolkit covering 15+ dimensions (MIT)](https://arxiv.org/abs/2306.17202)  
 
-### **Optimization Toolkit**
+#### **Optimization Toolkit**
 - **4-bit QAT** - [Quantization-aware training via bitsandbytes (3.2× speedup)](https://github.com/TimDettmers/bitsandbytes)  
 - **Flash Attention** - [Memory-efficient attention with xFormers (2.8× speedup)](https://github.com/Dao-AILab/flash-attention)  
 - **Layer Dropping** - [Structural pruning via torch.prune (1.9× speedup)](https://paperswithcode.com/method/layerdrop)  
