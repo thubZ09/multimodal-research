@@ -83,9 +83,9 @@ A comprehensive technical resource for researchers exploring **Vision-Language M
 - **Conceptual Captions** - [3M web-mined image-text pairs for pretraining VLMs](https://huggingface.co/datasets/conceptual_captions)  
 - **LAION-5B** - [5B image-text pairs from Common Crawl for large-scale pretraining](https://laion.ai/blog/laion-5b/)  
 - **ALIGN** - [1.8B noisy alt-text pairs for robust multimodal alignment](https://research.google/blog/align-scaling-up-visual-and-vision-language-representation-learning-with-noisy-text-supervision/)  
-- **SBU Caption** (2011) - [1M image-text pairs from web pages](https://huggingface.co/datasets/sbu_captions)  
-- **Visual Genome** (2017) - [5.4M object/relationship annotations](https://www.kaggle.com/datasets/mathurinache/visual-genome)  
-- **WuKong** (2022) - [100M Chinese image-text pairs](https://wukong-dataset.github.io/wukong-dataset/)  
+- **SBU Caption** - [1M image-text pairs from web pages](https://huggingface.co/datasets/sbu_captions)  
+- **Visual Genome** - [5.4M object/relationship annotations](https://www.kaggle.com/datasets/mathurinache/visual-genome)  
+- **WuKong** - [100M Chinese image-text pairs](https://wukong-dataset.github.io/wukong-dataset/)  
 
 ---
 #### Image Classification
