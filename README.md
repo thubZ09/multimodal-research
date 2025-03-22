@@ -55,6 +55,11 @@ A comprehensive technical resource for researchers exploring **Vision-Language M
 - **FLAVA** - [Unified transformer architecture with separate image and text encoders plus a multimodal encoder, designed to handle vision, language, and multimodal reasoning tasks simultaneously](https://arxiv.org/pdf/2112.04482)
 
 ### 📌**Recent papers**
+- [DPC: Dual-Prompt Collaboration for Tuning Vision-Language Models](https://arxiv.org/pdf/2503.13443)
+- [EfficientLLaVA:Generalizable Auto-Pruning for Large Vision-language Models](https://arxiv.org/pdf/2503.15369)
+- [JARVIS-VLA: Post-Training Large-Scale Vision Language Models to Play Visual Games with Keyboards and Mouse](https://arxiv.org/pdf/2503.16365)
+- [MaTVLM: Hybrid Mamba-Transformer for Efficient Vision-Language Modeling](https://arxiv.org/pdf/2503.13440)
+- [TULIP: Towards Unified Language-Image Pretraining](https://arxiv.org/pdf/2503.15485)
 - [VisualWebInstruct: Scaling up Multimodal Instruction Data through Web Search](https://arxiv.org/pdf/2503.10582)
 - [Rethinking Few-Shot Adaptation of Vision-Language Models in Two Stages](https://arxiv.org/pdf/2503.11609)  
 - [Visual-RFT: Visual Reinforcement Fine-Tuning](https://arxiv.org/pdf/2503.01785)  
