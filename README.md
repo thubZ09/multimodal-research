@@ -55,6 +55,7 @@ A comprehensive technical resource for researchers exploring **Vision-Language M
 - **FLAVA** - [Unified transformer architecture with separate image and text encoders plus a multimodal encoder, designed to handle vision, language, and multimodal reasoning tasks simultaneously](https://arxiv.org/pdf/2112.04482)
 
 ### 📌**Recent papers**
+- [VisualWebInstruct: Scaling up Multimodal Instruction Data through Web Search](https://arxiv.org/pdf/2503.10582)
 - [Rethinking Few-Shot Adaptation of Vision-Language Models in Two Stages](https://arxiv.org/pdf/2503.11609)  
 - [Visual-RFT: Visual Reinforcement Fine-Tuning](https://arxiv.org/pdf/2503.01785)  
 - [Quantifying Memorization and Retriever Performance in Retrieval-Augmented Vision-Language Models](https://arxiv.org/pdf/2502.13836)  
