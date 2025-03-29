@@ -55,6 +55,20 @@ A comprehensive technical resource for researchers exploring **Vision-Language M
 - **FLAVA** - [Unified transformer architecture with separate image and text encoders plus a multimodal encoder, designed to handle vision, language, and multimodal reasoning tasks simultaneously](https://arxiv.org/pdf/2112.04482)
 
 ### 📌**Recent papers**
+- [Not Only Text: Exploring Compositionality of Visual Representations in Vision-Language Models](https://arxiv.org/pdf/2503.17142)  
+- [Beyond Semantics: Rediscovering Spatial Awareness in Vision-Language Models](https://arxiv.org/pdf/2503.17349)  
+- [CoMP: Continual Multimodal Pre-training for Vision Foundation Models](https://arxiv.org/pdf/2503.18931)  
+- [ORION: A Holistic End-to-End Autonomous Driving Framework by Vision-Language Instructed Action Generation](https://arxiv.org/pdf/2503.19755)  
+- [PAVE: Patching and Adapting Video Large Language Models](https://arxiv.org/pdf/2503.19794)  
+- [FireEdit: Fine-grained Instruction-based Image Editing via Region-aware Vision Language Model](https://arxiv.org/pdf/2503.19839)  
+- [Self-ReS: Self-Reflection in Large Vision-Language Models for Long Video Understanding](https://arxiv.org/pdf/2503.203)  
+- [Towards Efficient and General-Purpose Few-Shot Misclassification Detection for Vision-Language Models](https://arxiv.org/pdf/2503.20492)  
+- [IAP: Improving Continual Learning of Vision-Language Models via Instance-Aware Prompting](https://arxiv.org/pdf/2503.20612)  
+- [BOLT: Boost Large Vision-Language Model Without Training for Long-form Video Understanding](https://arxiv.org/pdf/2503.21483)  
+- [Fwd2Bot: LVLM Visual Token Compression with Double Forward Bottleneck](https://arxiv.org/pdf/2503.21757)  
+- [OpenVLThinker: An Early Exploration to Complex Vision-Language Reasoning via Iterative Self-Improvement](https://arxiv.org/pdf/2503.17352)  
+- [Scaling Vision Pre-Training to 4K Resolution](https://arxiv.org/pdf/2503.19903)  
+- [CAFe: Unifying Representation and Generation with Contrastive-Autoregressive Finetuning](https://arxiv.org/pdf/2503.19900)
 - [DPC: Dual-Prompt Collaboration for Tuning Vision-Language Models](https://arxiv.org/pdf/2503.13443)
 - [EfficientLLaVA:Generalizable Auto-Pruning for Large Vision-language Models](https://arxiv.org/pdf/2503.15369)
 - [JARVIS-VLA: Post-Training Large-Scale Vision Language Models to Play Visual Games with Keyboards and Mouse](https://arxiv.org/pdf/2503.16365)
@@ -308,7 +322,7 @@ optimizer = DPAdam(
 
 ---
 
-## 🛠️ Tools & Resources
+## 🛠️ Tools 
 
 #### **Core Tools**
 - **VLMEvalKit** - [Unified evaluation framework supporting 20+ benchmarks (Apache-2.0)](https://github.com/open-compass/VLMEvalKit)   
