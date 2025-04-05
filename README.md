@@ -54,7 +54,21 @@ A comprehensive technical resource for researchers exploring **Vision-Language M
 - **CLIP** - [Dual-encoder architecture with ~400M parameters, using a Vision Transformer (ViT, e.g., ViT-L/14) for vision encoding and a Transformer for text encoding. Trained contrastively on 400M image-text pairs for multimodal alignment](https://arxiv.org/pdf/2103.00020)    
 - **FLAVA** - [Unified transformer architecture with separate image and text encoders plus a multimodal encoder, designed to handle vision, language, and multimodal reasoning tasks simultaneously](https://arxiv.org/pdf/2112.04482)
 
-### 📌**Recent papers**
+### 📌**Recent papers (2025)**
+- [Unveiling the Mist over 3D Vision-Language Understanding: Object-centric Evaluation with Chain-of-Analysis](https://arxiv.org/pdf/2503.22420)
+- [Breaking Language Barriers in Visual Language Models via Multilingual Textual Regularization](https://arxiv.org/pdf/2503.22577)
+- [Adapting Vision Foundation Models for Real-time Ultrasound Image Segmentation](https://arxiv.org/pdf/2503.24368)
+- [POPEN: Preference-Based Optimization and Ensemble for LVLM-Based Reasoning Segmentation](https://arxiv.org/pdf/2504.00640)
+- [QG-VTC: Question-Guided Visual Token Compression in MLLMs for Efficient VQA](https://arxiv.org/pdf/2504.00654)
+- [AdPO: Enhancing the Adversarial Robustness of Large Vision-Language Models with Preference Optimization](https://arxiv.org/pdf/2504.01735)
+- [Prompting Medical Vision-Language Models to Mitigate Diagnosis Bias by Generating Realistic Dermoscopic Images](https://arxiv.org/pdf/2504.01838)
+- [FineLIP: Extending CLIP's Reach via Fine-Grained Alignment with Longer Text Inputs](https://arxiv.org/pdf/2504.01916)
+- [Systematic Evaluation of Large Vision-Language Models for Surgical Artificial Intelligence](https://arxiv.org/pdf/2504.02799)
+- [Sparse Autoencoders Learn Monosemantic Features in Vision-Language Models](https://arxiv.org/pdf/2504.02821)
+- [STING-BEE: Towards Vision-Language Model for Real-World X-ray Baggage Security Inspection](https://arxiv.org/pdf/2504.02823)
+- [It’s a (Blind) Match! Towards Vision-Language Correspondence without Parallel Data](https://arxiv.org/pdf/2503.24129)
+- [Show or Tell? Effectively prompting Vision-Language Models for semantic segmentation](https://arxiv.org/pdf/2503.19647v1)  
+- [ToVE: Efficient Vision-Language Learning via Knowledge Transfer from Vision Experts](https://arxiv.org/pdf/2504.00691)
 - [Not Only Text: Exploring Compositionality of Visual Representations in Vision-Language Models](https://arxiv.org/pdf/2503.17142)  
 - [Beyond Semantics: Rediscovering Spatial Awareness in Vision-Language Models](https://arxiv.org/pdf/2503.17349)  
 - [CoMP: Continual Multimodal Pre-training for Vision Foundation Models](https://arxiv.org/pdf/2503.18931)  
