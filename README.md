@@ -5,7 +5,7 @@
 
 A comprehensive technical resource for researchers exploring **Vision-Language Models (VLMs)** and **Multimodal Learning**, featuring seminal papers/models, datasets, benchmarks, ethical challenges and research directions.
 
-### 👆 Notes section contains notes that I found useful. You can add yours as well!
+### 👆 Notes section contains notes that I found useful (everything not just multimodal related). You can add yours as well!
 
 ---
 
