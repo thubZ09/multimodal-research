@@ -1,4 +1,4 @@
-# Multimodal Learning Research Hub 🌐
+# Multimodal/VLMs Research Hub 🌐
 [![Last Updated](https://img.shields.io/badge/Updated-April%202025-brightpurple)](https://github.com/your-username/awesome-vision-language-models/commits/main)
 [![License](https://img.shields.io/badge/license-MIT-blue)](https://github.com/your-username/awesome-vision-language-models/blob/main/LICENSE)
 [![Contributions](https://img.shields.io/badge/Contributions-Welcome-yellow)](https://github.com/your-username/awesome-vision-language-models/blob/main/LICENSE)
