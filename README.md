@@ -12,6 +12,13 @@ A comprehensive technical resource for researchers exploring **Vision-Language M
 ## 📚 Seminal Papers/Models (Post-2021)
 
 ### 2025
+- **InternVL3** - [Follows the "ViT-MLP-LLM" paradigm, integrating InternViT with various pre-trained LLMs. Comprises seven models ranging from 1B to 78B parameters. Supports text, images, and videos simultaneously. Features Variable Visual Position Encoding (V2PE) for better long-context understanding. Utilizes pixel unshuffling and dynamic resolution strategy for efficient image processing. Training data includes tool usage, GUI operations, scientific diagrams, etc. Can be deployed as an OpenAI-compatible API via LMDeploy's api_server](https://huggingface.co/OpenGVLab/InternVL3-78B)
+- **VLM-R1** - [Based on DeepSeek's R1 method, combined with Qwen2.5-VL, excels in Representational Expression Comprehension (REC), such as locating specific targets in images. Uses RL and SFT to enhance performance. Supports joint image and text processing. Provides open-source training code and dataset support](https://github.com/om-ai-lab/VLM-R1)
+- **Kimi-VL** - [An efficient open-source MoE based VLM. Activates only 2.8B parameters in its language decoder (Kimi-VL-A3B). Demonstrates strong performance in multi-turn agent interaction tasks and diverse vision language tasks. Features a 128K extended context window for processing long inputs. Utilizes native-resolution vision encoder (MoonViT) for ultra-high-resolution visual inputs. Introduces Kimi-VL-Thinking variant for strong long-horizon reasoning capabilities](https://github.com/MoonshotAI/Kimi-VL/blob/main/Kimi-VL.pdf)
+- **Molmo Series** - [Four models by Ai2: MolmoE-1B, Molmo-7B-O, Molmo-7B-D, and Molmo-72B. MolmoE-1B based on OLMoE-1B-7B, Molmo-7B-O on OLMo-7B-1024, Molmo-7B-D on Qwen2 7B, and Molmo-72B on Qwen2 72B. Known for high performance in vision-language tasks, with Molmo-72B outperforming many proprietary systems]()
+- **Skywork-R1V** - [Open-sourced multimodal reasoning model with visual chain-of-thought capabilities. Supports mathematical and scientific analysis, and cross-modal understanding. Released quantized version (AWQ) for efficient inference](https://huggingface.co/Skywork/Skywork-R1V-38B)
+- **DeepSeek Janus Series** - [Unified transformer architecture with decoupled visual encoding pathway, available in Janus-Pro (7B and 1B), Janus (1.3B), and JanusFlow (1.3B) parameter sizes, supports English and Chinese languages, designed to handle sequence lengths of up to 4,096 tokens](https://github.com/deepseek-ai/Janus)
+- **Pixtral 12B & Pixtral Large** - [Decoder-only architecture with 12B (Pixtral 12B) and 124B (Pixtral Large) parameters, combines a 12B multimodal decoder with a 400M vision encoder. Pixtral Large integrates a 1B visual encoder with Mistral Large 2. Supports dozens of languages and features a 128k-token context window. Developed by Mistral AI, known for its efficiency in handling interleaved image and text data](https://huggingface.co/mistralai/Pixtral-12B-2409)
 - **Gemma3** - [Decoder-only architecture with 1B/4B/12B/27B parameters, supporting multimodality and 140+ languages, featuring a 128k-token context window and function calling capabilities, based on Google's Gemini 2.0 architecture](https://storage.googleapis.com/deepmind-media/gemma/Gemma3Report.pdf)
 - **PH4 Mini** - [Decoder-only architecture with specialized parameters, designed for efficient completion tasks, using optimized transformer layers and Microsoft's Phi-4 framework as pretrained backbone](https://arxiv.org/pdf/2503.01743)
 - **C4AI Aya Vision 32B** - [Decoder-only architecture with 32B parameters, designed for advanced visual language understanding, supporting 23 languages and featuring dynamic image processing capabilities](https://huggingface.co/CohereForAI/aya-vision-32b)
@@ -55,6 +62,14 @@ A comprehensive technical resource for researchers exploring **Vision-Language M
 - **FLAVA** - [Unified transformer architecture with separate image and text encoders plus a multimodal encoder, designed to handle vision, language, and multimodal reasoning tasks simultaneously](https://arxiv.org/pdf/2112.04482)
 
 ### 📌**Recent papers (2025)**
+- [SlowFastVAD: Video Anomaly Detection via Integrating Simple Detector and RAG-Enhanced Vision-Language Model](https://arxiv.org/pdf/2504.10320)
+- [Investigating Vision-Language Model for Point Cloud-based Vehicle Classification](https://arxiv.org/pdf/2504.08154)
+- [EO-VLM: VLM-Guided Energy Overload Attacks on Vision Models](https://arxiv.org/pdf/2504.08205)
+- [VL-UR: Vision-Language-guided Universal Restoration of Images Degraded by Adverse Weather Conditions](https://arxiv.org/pdf/2504.08219)
+- [VLMT: Vision-Language Multimodal Transformer for Multimodal Multi-hop Question Answering](https://arxiv.org/pdf/2504.08269)
+- [Steering CLIP's vision transformer with sparse autoencoders](https://arxiv.org/pdf/2504.08729)
+- [Taxonomy-Aware Evaluation of Vision-Language Models](https://arxiv.org/pdf/2504.05457)
+- [A Lightweight Large Vision-language Model for Multimodal Medical Images](https://arxiv.org/pdf/2504.05575)
 - [Unveiling the Mist over 3D Vision-Language Understanding: Object-centric Evaluation with Chain-of-Analysis](https://arxiv.org/pdf/2503.22420)
 - [Breaking Language Barriers in Visual Language Models via Multilingual Textual Regularization](https://arxiv.org/pdf/2503.22577)
 - [Adapting Vision Foundation Models for Real-time Ultrasound Image Segmentation](https://arxiv.org/pdf/2503.24368)
@@ -157,6 +172,7 @@ A comprehensive technical resource for researchers exploring **Vision-Language M
 ## 🏆 Benchmarks
 
 - [**Open VLM Leaderboard HF** (2025)](https://huggingface.co/spaces/opencompass/open_vlm_leaderboard)
+- **SVLTA** (2025) - [Benchmarking Vision-Language temporal alignment via synthetic video situation](https://svlta-ai.github.io/SVLTA/)
 - **Fewshot-VLM** (2025) - [Evaluates adaptation to new tasks with limited examples](https://arxiv.org/html/2501.02189v3)  
 - **ZeroShot-VLM** (2023) - [Tests generalization to unseen tasks without task-specific training](https://arxiv.org/html/2305.14196v3)  
 - **MetaPrompt** (2023) - [Measures domain generalization with unseen prompts/domains](https://ai.meta.com/research/publications/unibench-visual-reasoning-requires-rethinking-vision-language-beyond-scaling/)  
