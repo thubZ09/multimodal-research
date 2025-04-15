@@ -37,4 +37,4 @@ If you encounter any bugs, errors, or have suggestions for improvements:
   - Open an issue in the repository.  
 - Provide a clear description of the problem along with any relevant screenshots or error messages.
 
-### Thank you for helping us build a valuable resource for the VLM research community!☺️
+### Thank you for helping us build a valuable resource for the Multimodal research community!☺️

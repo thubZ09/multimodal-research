@@ -1,5 +1,5 @@
-# Vision-Language Models (VLMs) Research Hub 🌐
-[![Last Updated](https://img.shields.io/badge/Updated-March%202025-brightpurple)](https://github.com/your-username/awesome-vision-language-models/commits/main)
+# Multimodal Learning Research Hub 🌐
+[![Last Updated](https://img.shields.io/badge/Updated-April%202025-brightpurple)](https://github.com/your-username/awesome-vision-language-models/commits/main)
 [![License](https://img.shields.io/badge/license-MIT-blue)](https://github.com/your-username/awesome-vision-language-models/blob/main/LICENSE)
 [![Contributions](https://img.shields.io/badge/Contributions-Welcome-yellow)](https://github.com/your-username/awesome-vision-language-models/blob/main/LICENSE)
 
@@ -385,7 +385,7 @@ optimizer = DPAdam(
 
 ## 🤝Contributing Guidelines
 
-Thank you for considering contributing to the **Vision-Language Models (VLMs) Research Hub**! My goal is to create a comprehensive, community-driven resource for VLM researchers. Contributions ranging from updates to models, datasets, and benchmarks, to new code examples, ethical discussions, and research insights would be welcomed:)
+Thank you for considering contributing to the **Vision-Language Models (VLMs) Research Hub**! My goal is to create a comprehensive, community-driven resource for Multimodal and VLM researchers. Contributions ranging from updates to models, datasets, and benchmarks, to new code examples, ethical discussions, and research insights would be welcomed:)
 
 ---
 
