@@ -63,6 +63,15 @@ A comprehensive technical resource for researchers exploring **Vision-Language M
 - **FLAVA** - [Unified transformer architecture with separate image and text encoders plus a multimodal encoder, designed to handle vision, language, and multimodal reasoning tasks simultaneously](https://arxiv.org/pdf/2112.04482)
 
 ### 📌**Recent papers (2025)**
+- [Perception Encoder: The best visual embeddings are not at the output of the network](https://arxiv.org/pdf/2504.13181)
+- [Vision and Language Integration for Domain Generalization](https://arxiv.org/pdf/2504.12966)
+- [Low-hallucination Synthetic Captions for Large-Scale Vision-Language Model Pre-training](https://arxiv.org/pdf/2504.13123)
+- [Generate, but Verify: Reducing Hallucination in Vision-Language Models with Retrospective Resampling](https://arxiv.org/pdf/2504.13169)
+- [Logits DeConfusion with CLIP for Few-Shot Learning](https://arxiv.org/pdf/2504.12104)
+- [Efficient Contrastive Decoding with Probabilistic Hallucination Detection - Mitigating Hallucinations in Large Vision Language Models](https://arxiv.org/pdf/2504.12137)
+- [Consensus Entropy: Harnessing Multi-VLM Agreement for Self-Verifying and Self-Improving OCR](https://arxiv.org/pdf/2504.11101)
+- [SimpleAR: Pushing the Frontier of Autoregressive Visual Generation through Pretraining, SFT, and RL](https://arxiv.org/pdf/2504.11455)
+- [The Scalability of Simplicity: Empirical Analysis of Vision-Language Learning with a Single Transformer](https://arxiv.org/pdf/2504.10462)
 - [SlowFastVAD: Video Anomaly Detection via Integrating Simple Detector and RAG-Enhanced Vision-Language Model](https://arxiv.org/pdf/2504.10320)
 - [Investigating Vision-Language Model for Point Cloud-based Vehicle Classification](https://arxiv.org/pdf/2504.08154)
 - [EO-VLM: VLM-Guided Energy Overload Attacks on Vision Models](https://arxiv.org/pdf/2504.08205)
