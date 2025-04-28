@@ -12,6 +12,7 @@ A comprehensive technical resource for researchers exploring **Vision-Language M
 ## 📚 Seminal Papers/Models (Post-2021)
 
 ### 2025
+- **Eagle 2.5** - [Decoder-only architecture with 8B parameters, designed for long-context multimodal learning, featuring a context window that can be dynamically adjusted based on input length. Utilizes progressive post-training to gradually increase the model's context window. Achieves 72.4% on Video-MME with 512 input frames, matching the results of top-tier commercial models like GPT-4o and large-scale open-source models like Qwen2.5-VL-72B and InternVL2.5-78B](https://github.com/NVlabs/EAGLE?tab=readme-ov-file)
 - **InternVL3** - [Follows the "ViT-MLP-LLM" paradigm, integrating InternViT with various pre-trained LLMs. Comprises seven models ranging from 1B to 78B parameters. Supports text, images, and videos simultaneously. Features Variable Visual Position Encoding (V2PE) for better long-context understanding. Utilizes pixel unshuffling and dynamic resolution strategy for efficient image processing. Training data includes tool usage, GUI operations, scientific diagrams, etc. Can be deployed as an OpenAI-compatible API via LMDeploy's api_server](https://huggingface.co/OpenGVLab/InternVL3-78B)
 - **Llama 3.2 Vision** - [Decoder-only architecture with 11B and 90B parameters, supports 8 languages - English, German, Italian, Portuguese, Hindi, Spanish, and Thai. NOTE: for image+text applications, English is the only language supported. Features a 128k-token context window, optimized for multimodal complex reasoning](https://huggingface.co/meta-llama/Llama-3.2-11B-Vision)
 - **VLM-R1** - [Based on DeepSeek's R1 method, combined with Qwen2.5-VL, excels in Representational Expression Comprehension (REC), such as locating specific targets in images. Uses RL and SFT to enhance performance. Supports joint image and text processing. Provides open-source training code and dataset support](https://github.com/om-ai-lab/VLM-R1)
@@ -63,6 +64,11 @@ A comprehensive technical resource for researchers exploring **Vision-Language M
 - **FLAVA** - [Unified transformer architecture with separate image and text encoders plus a multimodal encoder, designed to handle vision, language, and multimodal reasoning tasks simultaneously](https://arxiv.org/pdf/2112.04482)
 
 ### 📌**Recent papers (2025)**
+- [Vision language models are unreliable at trivial spatial cognition](https://arxiv.org/pdf/2504.16061)
+- [MMInference: Accelerating Pre-filling for Long-Context VLMs via Modality-Aware Permutation Sparse Attention](https://arxiv.org/pdf/2504.16083)
+- [Object-Level Verbalized Confidence Calibration in Vision-Language Models via Semantic Perturbation](https://arxiv.org/pdf/2504.14848)
+- [Benchmarking Large Vision-Language Models on Fine-Grained Image Tasks: A Comprehensive Evaluation](https://arxiv.org/pdf/2504.14988)
+- [Seeing from Another Perspective: Evaluating Multi-View Understanding in MLLMs](https://arxiv.org/pdf/2504.15280)
 - [Perception Encoder: The best visual embeddings are not at the output of the network](https://arxiv.org/pdf/2504.13181)
 - [Vision and Language Integration for Domain Generalization](https://arxiv.org/pdf/2504.12966)
 - [Low-hallucination Synthetic Captions for Large-Scale Vision-Language Model Pre-training](https://arxiv.org/pdf/2504.13123)
@@ -181,13 +187,16 @@ A comprehensive technical resource for researchers exploring **Vision-Language M
 
 ## 🏆 Benchmarks
 
-- [**Open VLM Leaderboard HF** (2025)](https://huggingface.co/spaces/opencompass/open_vlm_leaderboard)
+- **VisuLogic** (2025) - [Benchmark for Evaluating Visual Reasoning in Multi-modal Large Language Models](https://visulogic-benchmark.github.io/VisuLogic/) 
+- **V2R-Bench** (2025) - [Holistically Evaluating LVLM Robustness to Fundamental Visual Variations](https://arxiv.org/pdf/2504.16727)
+- **Open VLM Leaderboard** [HF(2025)](https://huggingface.co/spaces/opencompass/open_vlm_leaderboard)
 - **SVLTA** (2025) - [Benchmarking Vision-Language temporal alignment via synthetic video situation](https://svlta-ai.github.io/SVLTA/)
 - **Fewshot-VLM** (2025) - [Evaluates adaptation to new tasks with limited examples](https://arxiv.org/html/2501.02189v3)  
 - **ZeroShot-VLM** (2023) - [Tests generalization to unseen tasks without task-specific training](https://arxiv.org/html/2305.14196v3)  
 - **MetaPrompt** (2023) - [Measures domain generalization with unseen prompts/domains](https://ai.meta.com/research/publications/unibench-visual-reasoning-requires-rethinking-vision-language-beyond-scaling/)  
 
 #### **Video-Language Benchmarks**
+- **Video-MMLU** (2025) - [A Massive Multi-Discipline Lecture Understanding Benchmark](https://enxinsong.com/Video-MMLU-web/)
 - **VLM²-Bench** (2024) - [Evaluates multi-image/video linking capabilities (9 subtasks, 3K+ test cases)](https://vlm2-bench.github.io/)  
 - **ViLCo-Bench** (2024) - [Continual learning for video-text tasks](https://github.com/cruiseresearchgroup/ViLCo)  
 
