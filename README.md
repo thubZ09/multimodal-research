@@ -64,6 +64,28 @@ A comprehensive technical resource for researchers exploring **Vision-Language M
 - **FLAVA** - [Unified transformer architecture with separate image and text encoders plus a multimodal encoder, designed to handle vision, language, and multimodal reasoning tasks simultaneously](https://arxiv.org/pdf/2112.04482)
 
 ### 📌**Recent papers (2025)**
+- [Investigating Zero-Shot Diagnostic Pathology in Vision-Language Models with Efficient Prompt Design](https://arxiv.org/pdf/2505.00134)
+- [Detecting and Mitigating Hateful Content in Multimodal Memes with Vision-Language Models](https://arxiv.org/pdf/2505.00150)
+- [V3LMA: Visual 3D-enhanced Language Model for Autonomous Driving](https://arxiv.org/pdf/2505.00156)
+- [AdCare-VLM: Leveraging Large Vision Language Model (LVLM) to Monitor Long-Term Medication Adherence and Care](https://arxiv.org/pdf/2505.00275)
+- [Visual Test-time Scaling for GUI Agent Grounding](https://arxiv.org/pdf/2505.00684)
+- [Vision-Language Model-Based Semantic-Guided Imaging Biomarker for Early Lung Cancer Detection](https://arxiv.org/pdf/2504.21344)
+- [Rethinking Visual Layer Selection in Multimodal LLMs](https://arxiv.org/pdf/2504.21447)
+- [Black-Box Visual Prompt Engineering for Mitigating Object Hallucination in Large Vision Language Models](https://arxiv.org/pdf/2504.21559)
+- [Early Exit and Multi Stage Knowledge Distillation in VLMs for Video Summarization](https://arxiv.org/pdf/2504.21831)
+- [DeepAndes: A Self-Supervised Vision Foundation Model for Multi-Spectral Remote Sensing Imagery of the Andes](https://arxiv.org/pdf/2504.20303)
+- [MicarVLMoE: A Modern Gated Cross-Aligned Vision-Language Mixture of Experts Model for Medical Image Captioning and Report Generation](https://arxiv.org/pdf/2504.20343)
+- [Antidote: A Unified Framework for Mitigating LVLM Hallucinations in Counterfactual Presupposition and Object Perception](https://arxiv.org/pdf/2504.20468)
+- [SpaRE: Enhancing Spatial Reasoning in Vision-Language Models with Synthetic Data](https://arxiv.org/pdf/2504.20648)
+- [FedMVP: Federated Multi-modal Visual Prompt Tuning for Vision-Language Models](https://arxiv.org/pdf/2504.20860)
+- [YoChameleon: Personalized Vision and Language Generation](https://arxiv.org/pdf/2504.20998)
+- [Contrastive Language-Image Learning with Augmented Textual Prompts for 3D/4D FER Using Vision-Language Model](https://arxiv.org/pdf/2504.19739)
+- [Back to Fundamentals: Low-Level Visual Features Guided Progressive Token Pruning](https://arxiv.org/pdf/2504.17996)
+- [A Large Vision-Language Model based Environment Perception System for Visually Impaired People](https://arxiv.org/pdf/2504.18027)
+- [ActionArt: Advancing Multimodal Large Models for Fine-Grained Human-Centric Video Understanding](https://arxiv.org/pdf/2504.18152)
+- [E-InMeMo: Enhanced Prompting for Visual In-Context Learning](https://arxiv.org/pdf/2504.18158)
+- [Revisiting Data Auditing in Large Vision-Language Models](https://arxiv.org/pdf/2504.18349)
+- [Unsupervised Visual Chain-of-Thought Reasoning via Preference Optimization](https://arxiv.org/pdf/2504.18397)
 - [Vision language models are unreliable at trivial spatial cognition](https://arxiv.org/pdf/2504.16061)
 - [MMInference: Accelerating Pre-filling for Long-Context VLMs via Modality-Aware Permutation Sparse Attention](https://arxiv.org/pdf/2504.16083)
 - [Object-Level Verbalized Confidence Calibration in Vision-Language Models via Semantic Perturbation](https://arxiv.org/pdf/2504.14848)
@@ -146,42 +168,63 @@ A comprehensive technical resource for researchers exploring **Vision-Language M
 
 #### **Core Training Datasets**
 - **COCO** - [Contains 328K images, each paired with 5 captions for image captioning and VQA](https://huggingface.co/datasets/HuggingFaceM4/COCO)  
-- **Conceptual Captions** - [3M web-mined image-text pairs for pretraining VLMs](https://huggingface.co/datasets/conceptual_captions)  
+- **Conceptual Captions 3M** - [3M web-mined image-text pairs for pretraining VLMs](https://huggingface.co/datasets/conceptual_captions)
+- **Conceptual Captions 12M** - [12M web-mined image-text pairs for pretraining VLMs](https://github.com/google-research-datasets/conceptual-12m)
+- **LAION400M** - [400 million image-text pairs](https://laion.ai/blog/laion-400-open-dataset/)  
 - **LAION-5B** - [5B image-text pairs from Common Crawl for large-scale pretraining](https://laion.ai/blog/laion-5b/)  
 - **ALIGN** - [1.8B noisy alt-text pairs for robust multimodal alignment](https://research.google/blog/align-scaling-up-visual-and-vision-language-representation-learning-with-noisy-text-supervision/)  
 - **SBU Caption** - [1M image-text pairs from web pages](https://huggingface.co/datasets/sbu_captions)  
 - **Visual Genome** - [5.4M object/relationship annotations](https://www.kaggle.com/datasets/mathurinache/visual-genome)  
-- **WuKong** - [100M Chinese image-text pairs](https://wukong-dataset.github.io/wukong-dataset/)  
+- **WuKong** - [100M Chinese image-text pairs](https://wukong-dataset.github.io/wukong-dataset/) 
+- **Localized Narratives** - [0.87 million image-text pairs](https://paperswithcode.com/dataset/localized-narratives)
+- **Wikipedia-based Image Text** - [37.6 million image-text pairs, 108 languages](https://github.com/google-research-datasets/wit)
+- **Red Caps** - [12 million image-text pairs](https://huggingface.co/datasets/kdexd/red_caps)
+- **FILIP300M** - [300 million image-text pairs](https://openreview.net/forum?id=cpDhcsEDC2)
+- **WebLI** - [12 billion image-text pairs](https://paperswithcode.com/dataset/webli)
 
 ---
 #### Image Classification
-- **ImageNet-1k** (2009) - [1.28M training images across 1,000 classes](https://huggingface.co/datasets/imagenet-1k)  
-- **CIFAR-10/100** (2009) - [60K low-resolution images for small-scale testing](https://huggingface.co/datasets/cifar10)  
-- **Food-101** (2014) - [101 food categories with 1,000 images each](https://huggingface.co/datasets/food101)  
+- **ImageNet-1k** - [1.28M training images across 1,000 classes](https://huggingface.co/datasets/imagenet-1k)  
+- **CIFAR-10/100** - [60K low-resolution images for small-scale testing](https://huggingface.co/datasets/cifar10)  
+- **Food-101** - [101 food categories with 1,000 images each](https://huggingface.co/datasets/food101)
+- **MNIST** - [Handwritten digit database](https://www.kaggle.com/datasets/hojjatk/mnist-dataset)
+- **Caltech-101** - [101 object categories](https://paperswithcode.com/dataset/caltech-101)
 
 #### Object Detection
-- **COCO Detection** (2017) - [118K images with 80 object categories](https://cocodataset.org/#detection-2017)  
-- **LVIS** (2019) - [1,203 long-tail object categories](https://www.lvisdataset.org/)  
+- **COCO Detection** - [118K images with 80 object categories](https://cocodataset.org/#detection-2017)  
+- **LVIS** - [1,203 long-tail object categories](https://www.lvisdataset.org/)
+- **ODinW** - [Object detection in the wild](https://paperswithcode.com/sota/zero-shot-object-detection-on-odinw) 
 
 #### Semantic Segmentation
-- **Cityscapes** (2016) - [5,000 urban scene images with pixel-level labels](https://www.cityscapes-dataset.com/)  
-- **ADE20k** (2017) - [25K images with 150 object/part categories](https://www.kaggle.com/datasets/awsaf49/ade20k-dataset)  
+- **Cityscapes** - [5,000 urban scene images with pixel-level labels](https://www.cityscapes-dataset.com/)  
+- **ADE20k** - [25K images with 150 object/part categories](https://www.kaggle.com/datasets/awsaf49/ade20k-dataset)
+- **PASCAL VOC** - [Visual Object Classes dataset](https://paperswithcode.com/dataset/pascal-voc)  
 
 #### Action Recognition
-- **UCF101** (2012) - [13K video clips across 101 actions](https://www.crcv.ucf.edu/data/UCF101.php)  
-- **Kinetics700** (2019) - [500K video clips covering 700 human actions](https://paperswithcode.com/dataset/kinetics-700)  
+- **UCF101** - [13K video clips across 101 actions](https://www.crcv.ucf.edu/data/UCF101.php)  
+- **Kinetics700** - [500K video clips covering 700 human actions](https://paperswithcode.com/dataset/kinetics-700)
+- **RareAct** - [Dataset for recognizing rare actions](https://paperswithcode.com/dataset/rareact) 
 
 #### Image-Text Retrieval
 - **Flickr30k** (2014) - [31K images with dense textual descriptions](https://www.kaggle.com/datasets/adityajn105/flickr30k)  
-- **COCO Retrieval** (2015) - [Standard benchmark for cross-modal matching](https://cocodataset.org/#home)  
+- **COCO Retrieval** (2015) - [Standard benchmark for cross-modal matching](https://cocodataset.org/#home) 
 
+#### Visual Question Answering (VQA)
+- **VQA** - [Visual Question Answering dataset](https://visualqa.org/)
+- **GQA** - [Dataset for compositional question answering](https://paperswithcode.com/dataset/gqa)
+- **OK-VQA** - [11K open-ended questions requiring external knowledge](https://okvqa.allenai.org/)
+- **ScienceQA** - [21K science questions for multimodal reasoning](https://scienceqa.github.io/)
+- **TextVQA** - [Dataset to read and reason about text in images](https://textvqa.org/)
+ 
 #### **Instruction Tuning**
 - **LLaVA Instruct** - [260K image-conversation pairs for instruction fine-tuning](https://huggingface.co/datasets/HuggingFaceH4/llava-instruct-mix-vsft)  
 
 #### **Additional Datasets**
+- **ReXGradient-160K** - [ A Large-Scale Publicly Available Dataset of Chest Radiographs with Free-text Reports](https://huggingface.co/datasets/rajpurkarlab/ReXGradient-160K)
 - **Open Images** - [9M images with multi-label annotations](https://docs.ultralytics.com/datasets/detect/open-images-v7/)  
 - **Hateful Memes** - [10K memes for hate speech detection](https://paperswithcode.com/dataset/hateful-memes)  
-- **EuroSAT** - [27K satellite images for land use classification](https://github.com/phelber/eurosat)  
+- **EuroSAT** - [27K satellite images for land use classification](https://github.com/phelber/eurosat)
+- **MathVista** - [Evaluating Math Reasoning in Visual Contexts](https://mathvista.github.io/)
 
 ---
 
@@ -191,9 +234,12 @@ A comprehensive technical resource for researchers exploring **Vision-Language M
 - **V2R-Bench** (2025) - [Holistically Evaluating LVLM Robustness to Fundamental Visual Variations](https://arxiv.org/pdf/2504.16727)
 - **Open VLM Leaderboard** [HF(2025)](https://huggingface.co/spaces/opencompass/open_vlm_leaderboard)
 - **SVLTA** (2025) - [Benchmarking Vision-Language temporal alignment via synthetic video situation](https://svlta-ai.github.io/SVLTA/)
-- **Fewshot-VLM** (2025) - [Evaluates adaptation to new tasks with limited examples](https://arxiv.org/html/2501.02189v3)  
+- **Fewshot-VLM** (2025) - [Evaluates adaptation to new tasks with limited examples](https://arxiv.org/html/2501.02189v3) 
+- **OCRBench & OCRBench v2** (2024) - [OCR capabilities of Large Multimodal Models](https://github.com/Yuliang-Liu/MultimodalOCR)
 - **ZeroShot-VLM** (2023) - [Tests generalization to unseen tasks without task-specific training](https://arxiv.org/html/2305.14196v3)  
-- **MetaPrompt** (2023) - [Measures domain generalization with unseen prompts/domains](https://ai.meta.com/research/publications/unibench-visual-reasoning-requires-rethinking-vision-language-beyond-scaling/)  
+- **MetaPrompt** (2023) - [Measures domain generalization with unseen prompts/domains](https://ai.meta.com/research/publications/unibench-visual-reasoning-requires-rethinking-vision-language-beyond-scaling/)
+- **MMBench** (2023) - [Multimodal benchmark](https://github.com/open-compass/MMBench) 
+- **MMMU** (2023) - [Massive Multi-discipline Multimodal Understanding benchmark](https://mmmu-benchmark.github.io/)
 
 #### **Video-Language Benchmarks**
 - **Video-MMLU** (2025) - [A Massive Multi-Discipline Lecture Understanding Benchmark](https://enxinsong.com/Video-MMLU-web/)
@@ -201,7 +247,8 @@ A comprehensive technical resource for researchers exploring **Vision-Language M
 - **ViLCo-Bench** (2024) - [Continual learning for video-text tasks](https://github.com/cruiseresearchgroup/ViLCo)  
 
 #### **Dynamic Evaluation**
-- **LiveXiv** (2024) - [Monthly-changing benchmark to prevent overfitting, estimates true model capabilities](https://arxiv.org/abs/2410.10783)  
+- **LiveXiv** (2024) - [Monthly-changing benchmark to prevent overfitting, estimates true model capabilities](https://arxiv.org/abs/2410.10783)
+- **MM-Vet** (2023) - [Evaluating Large Multimodal Models for Integrated Capabilities](https://github.com/yuweihao/MM-Vet)  
 
 #### **Specialized Tasks**
 - **ScienceQA** (2022) - [21K science questions for multimodal reasoning](https://scienceqa.github.io/)  
@@ -210,6 +257,55 @@ A comprehensive technical resource for researchers exploring **Vision-Language M
 ---
 
 ## 🔍 Research Directions
+
+### 🔸 Regression Tasks
+→ **Key Challenges**
+- Effectively capturing numerical relationships
+- Lack of tailored tokenizers for numerical values
+
+→ **Open Problems**  
+- Development of task-specific regression heads for VLMs
+
+### 🔸 Diverse Visual Data
+→ **Key Challenges**
+- Adapting VLMs for multispectral and SAR data (remote sensing)  
+- Processing multidimensional inputs  
+- Integrating textual patient records with medical images    
+
+→ **Applications**  
+- Remote sensing analysis  
+- Medical image analysis for diagnosis and treatment planning
+
+### 🔸 Multimodal Output Beyond Text
+→ **Key Challenges**
+- Generating images, videos, and 3D data
+- Adapting VLMs for dense prediction tasks
+
+→ **Emerging Solutions**
+- Adding text branches to computer vision models
+- Using VLMs as agents interfacing with specialized output heads
+
+### 🔸 Multitemporal Data Analysis
+→ **Key Challenges**
+- Analyzing sequences of visual and textual information over time  
+- Identifying temporal trends and dependencies  
+
+→ **Applications**
+- Climate change monitoring
+- Land-use change prediction
+
+### 🔸 Efficient Edge Deployment
+↓ **SOTA Compression**
+| Technique | Parameters | VRAM | Latency | Accuracy |
+|-----------|------------|------|---------|----------|
+| 4-bit QAT | 7B → 1.8B  | 6GB  | 14ms    | 92.3%    |
+| LayerDrop | 7B → 3.1B  | 9GB  | 22ms    | 95.1%    |
+| MoE-Slim  | 7B → 2.4B  | 5GB  | 18ms    | 93.7%    |
+
+→ **Hardware-Software Codesign**
+- TensorRT-LLM for VLMs  
+- NPU-optimized kernels (Huawei Ascend)  
+- FlashAttention-Edge for ARM GPUs
 
 ### 🔸 Multimodal Alignment & Fusion
 → **Key Challenges**
@@ -238,25 +334,6 @@ class GatedCrossAttention(nn.Module):
 - Theoretical analysis of joint embedding spaces
 
 - Dynamic modality weighting for unbalanced inputs
-
----
-
-### 🔸 Efficient Edge Deployment
-↓ **SOTA Compression**
-
-| Technique   | Parameters | VRAM | Latency | Accuracy |
-|-------------|------------|------|---------|----------|
-| 4-bit QAT   | 7B → 1.8B  | 6GB  | 14ms    | 92.3%    |           
-| LayerDrop   | 7B → 3.1B  | 9GB  | 22ms    | 95.1%    |           
-| MoE-Slim    | 7B → 2.4B  | 5GB  | 18ms    | 93.7%    |           
-
-→ **Hardware-Software Codesign**
-
-- TensorRT-LLM for VLMs
-
-- NPU-optimized kernels (Huawei Ascend)
-
-- FlashAttention-Edge for ARM GPUs
 
 ---
 
@@ -312,12 +389,16 @@ class GatedCrossAttention(nn.Module):
 
 ##  ⚠️ Ethical Challenges
 
-| Bias Type    | Prevalence | High-Risk Domains | Mitigation Effectiveness          |
-|--------------|------------|-------------------|---------------------------------|
-| Gender       | 23%        | Career images     | 63% reduction (Counterfactual) |
-| Racial       | 18%        | Beauty standards  | 58% (Adversarial)               |
-| Cultural     | 29%        | Religious symbols | 41% (Data Filtering)            |
-| Hallucination| 34%        | Medical reports   | 71% (CHAIR metric)              |
+| Bias Type          | Prevalence | High-Risk Domains     | Mitigation Effectiveness                     |
+|--------------------|------------|-----------------------|----------------------------------------------|
+| Gender             | 23%        | Career images         | 63% reduction (Counterfactual)               |
+| Racial             | 18%        | Beauty standards      | 58% (Adversarial)                            |
+| Cultural           | 29%        | Religious symbols     | 41% (Data Filtering)                         |
+| Hallucination      | 34%        | Medical reports       | 71% (CHAIR metric)                           |
+| Spatial Reasoning  | High       | Scene understanding   | Requires further research                    |
+| Counting           | Moderate   | Object detection      | Requires specialized techniques              |
+| Attribute Recognition| Moderate   | Detailed descriptions | Needs improved mechanisms                    |
+| Prompt Ignoring    | Moderate   | Task-specific prompts | Requires better understanding of intent      |
 
 ---
 
@@ -387,17 +468,27 @@ optimizer = DPAdam(
 ## 📌Emerging Applications 
 #### **→ Healthcare**
 - Surgical VLM: 91% instrument tracking
-
 - Radiology Assistant: 0.92 AUC diagnosis
 
-#### **→ Autonomous Systems**
-- DriveVLM: 94ms scene understanding
+#### **→ Automotive**
+- ADAS (Advanced Driver-Assistance Systems)
+- Autonomous Driving
+- Driver Warning Systems
 
-- DroneNav: 82% obstacle avoidance
+#### **→ Robotics**
+- Enhanced environmental understanding
+- Improved interaction through visual and linguistic cues  
+
+#### **Augmented and Virtual Reality (AR/VR)**
+- Real-world visual pattern analysis
+- Overlaying relevant digital information  
+
+#### **→ Real-time Processing and Edge Deployment**
+- Real-time image captioning for social media
+- Autonomous robot operation based on visual and textual instructions
 
 #### **→ Industrial**
 - Quality Control: 99.3% defect detection
-
 - Remote Sensing: 0.89 crop health correlation
 
 ---
