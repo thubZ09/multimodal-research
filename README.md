@@ -266,6 +266,8 @@ A comprehensive technical resource for researchers exploring **Vision-Language M
 → **Open Problems**  
 - Development of task-specific regression heads for VLMs
 
+---
+
 ### 🔸 Diverse Visual Data
 → **Key Challenges**
 - Adapting VLMs for multispectral and SAR data (remote sensing)  
@@ -276,6 +278,8 @@ A comprehensive technical resource for researchers exploring **Vision-Language M
 - Remote sensing analysis  
 - Medical image analysis for diagnosis and treatment planning
 
+---
+
 ### 🔸 Multimodal Output Beyond Text
 → **Key Challenges**
 - Generating images, videos, and 3D data
@@ -285,6 +289,8 @@ A comprehensive technical resource for researchers exploring **Vision-Language M
 - Adding text branches to computer vision models
 - Using VLMs as agents interfacing with specialized output heads
 
+---
+
 ### 🔸 Multitemporal Data Analysis
 → **Key Challenges**
 - Analyzing sequences of visual and textual information over time  
@@ -293,6 +299,8 @@ A comprehensive technical resource for researchers exploring **Vision-Language M
 → **Applications**
 - Climate change monitoring
 - Land-use change prediction
+
+---
 
 ### 🔸 Efficient Edge Deployment
 ↓ **SOTA Compression**
@@ -306,6 +314,8 @@ A comprehensive technical resource for researchers exploring **Vision-Language M
 - TensorRT-LLM for VLMs  
 - NPU-optimized kernels (Huawei Ascend)  
 - FlashAttention-Edge for ARM GPUs
+
+---
 
 ### 🔸 Multimodal Alignment & Fusion
 → **Key Challenges**
