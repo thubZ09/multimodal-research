@@ -64,6 +64,18 @@ A comprehensive technical resource for researchers exploring **Vision-Language M
 - **FLAVA** - [Unified transformer architecture with separate image and text encoders plus a multimodal encoder, designed to handle vision, language, and multimodal reasoning tasks simultaneously](https://arxiv.org/pdf/2112.04482)
 
 ### 📌**Recent papers (2025)**
+- [Beyond CLIP Generalization: Against Forward&Backward Forgetting Adapter for Continual Learning of Vision-Language Models](https://arxiv.org/pdf/2505.07690)
+- [MAIS: Memory-Attention for Interactive Segmentation](https://arxiv.org/pdf/2505.07511)
+- [Register and CLS tokens yield a decoupling of local and global features in large ViTs](https://arxiv.org/pdf/2505.05892)
+- [VLM Q-Learning: Aligning Vision-Language Models for Interactive Decision-Making](https://arxiv.org/pdf/2505.03181)
+- [MM-Skin: Enhancing Dermatology Vision-Language Model with an Image-Text Dataset Derived from Textbooks](https://arxiv.org/pdf/2505.06152)
+- [Does CLIP perceive art the same way we do?](https://arxiv.org/pdf/2505.05229)
+- [Mapping User Trust in Vision Language Models: Research Landscape, Challenges, and Prospects](https://arxiv.org/pdf/2505.05318)
+- [TokLIP: Marry Visual Tokens to CLIP for Multimodal Comprehension and Generation](https://arxiv.org/pdf/2505.05422)
+- [Adaptive Markup Language Generation for Contextually-Grounded Visual Document Understanding](https://arxiv.org/pdf/2505.05446)
+- [DeCLIP: Decoupled Learning for Open-Vocabulary Dense Perception](https://arxiv.org/pdf/2505.04410)
+- [OpenVision: A Fully-Open, Cost-Effective Family of Advanced Vision Encoders for Multimodal Learning](https://arxiv.org/pdf/2505.04601)
+- [ReGraP-LLaVA: Reasoning enabled Graph-based Personalized Large Language and Vision Assistant](https://arxiv.org/pdf/2505.03654)
 - [Investigating Zero-Shot Diagnostic Pathology in Vision-Language Models with Efficient Prompt Design](https://arxiv.org/pdf/2505.00134)
 - [Detecting and Mitigating Hateful Content in Multimodal Memes with Vision-Language Models](https://arxiv.org/pdf/2505.00150)
 - [V3LMA: Visual 3D-enhanced Language Model for Autonomous Driving](https://arxiv.org/pdf/2505.00156)
@@ -230,6 +242,7 @@ A comprehensive technical resource for researchers exploring **Vision-Language M
 
 ## 🏆 Benchmarks
 
+- **On Path to Multimodal Generalist: General-Level and General-Bench** (2025) - [Does higher performance across tasks indicate a stronger capability of MLLM, and closer to AGI?](https://arxiv.org/pdf/2505.04620)
 - **VisuLogic** (2025) - [Benchmark for Evaluating Visual Reasoning in Multi-modal Large Language Models](https://visulogic-benchmark.github.io/VisuLogic/) 
 - **V2R-Bench** (2025) - [Holistically Evaluating LVLM Robustness to Fundamental Visual Variations](https://arxiv.org/pdf/2504.16727)
 - **Open VLM Leaderboard** [HF(2025)](https://huggingface.co/spaces/opencompass/open_vlm_leaderboard)
