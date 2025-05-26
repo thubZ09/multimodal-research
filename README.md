@@ -64,6 +64,43 @@ A comprehensive technical resource for researchers exploring **Vision-Language M
 - **FLAVA** - [Unified transformer architecture with separate image and text encoders plus a multimodal encoder, designed to handle vision, language, and multimodal reasoning tasks simultaneously](https://arxiv.org/pdf/2112.04482)
 
 ### 📌**Recent papers (2025)**
+- [TokBench: Evaluating Your Visual Tokenizer before Visual Generation](https://arxiv.org/pdf/2505.18142)
+- [One RL to See Them All: Visual Triple Unified Reinforcement Learning](https://arxiv.org/pdf/2505.18129)
+- [Adapting SAM 2 for Visual Object Tracking: 1st Place Solution for MMVPR Challenge Multi-Modal Tracking](https://arxiv.org/pdf/2505.18111)
+- [FDBPL: Faster Distillation-Based Prompt Learning for Region-Aware Vision-Language Models Adaptation](https://arxiv.org/pdf/2505.18053)
+- [LookWhere? Efficient Visual Recognition by Learning Where to Look and What to See from Self-Supervision](https://arxiv.org/pdf/2505.18051)
+- [Clip4Retrofit: Enabling Real-Time Image Labeling on Edge Devices via Cross-Architecture CLIP Distillation](https://arxiv.org/pdf/2505.18039)
+- [Few-Shot Learning from Gigapixel Images via Hierarchical Vision-Language Alignment and Modeling](https://arxiv.org/pdf/2505.17982)
+- [GoT-R1: Unleashing Reasoning Capability of MLLM for Visual Generation with Reinforcement Learning](https://arxiv.org/pdf/2505.17022)
+- [SophiaVL-R1: Reinforcing MLLMs Reasoning with Thinking Reward](https://arxiv.org/pdf/2505.17018)
+- [Multi-SpatialMLLM: Multi-Frame Spatial Understanding with Multi-Modal Large Language Models](https://arxiv.org/pdf/2505.17015)
+- [SpatialScore: Towards Unified Evaluation for Multimodal Spatial Understanding](https://arxiv.org/pdf/2505.17012)
+- [SOLVE: Synergy of Language-Vision and End-to-End Networks for Autonomous Driving](https://arxiv.org/pdf/2505.16805)
+- [Self-Rewarding Large Vision-Language Models for Optimizing Prompts in Text-to-Image Generation](https://arxiv.org/pdf/2505.16763)
+- [STAR-R1: Spacial TrAnsformation Reasoning by Reinforcing Multimodal LLMs](https://arxiv.org/pdf/2505.15804)
+- [Visual Perturbation and Adaptive Hard Negative Contrastive Learning for Compositional Reasoning in Vision-Language Models](https://arxiv.org/pdf/2505.15576)
+- [Clapper: Compact Learning and Video Representation in VLMs](https://arxiv.org/pdf/2505.15529)
+- [Visual Thoughts: A Unified Perspective of Understanding Multimodal Chain-of-Thought](https://arxiv.org/pdf/2505.15510)
+- [Prompt Tuning Vision Language Models with Margin Regularizer for Few-Shot Learning under Distribution Shifts](https://arxiv.org/pdf/2505.15506)
+- [Seeing Through Deception: Uncovering Misleading Creator Intent in Multimodal News with Vision-Language Models](https://arxiv.org/pdf/2505.15489)
+- [ViaRL: Adaptive Temporal Grounding via Visual Iterated Amplification Reinforcement Learning](https://arxiv.org/pdf/2505.15447)
+- [Chain-of-Focus: Adaptive Visual Search and Zooming for Multimodal Reasoning via RL](https://arxiv.org/pdf/2505.15436)
+- [TimeCausality: Evaluating the Causal Ability in Time Dimension for Vision Language Models](https://arxiv.org/pdf/2505.15435)
+- [Efficient Data Driven Mixture-of-Expert Extraction from Trained Networks](https://arxiv.org/pdf/2505.15414)
+- [Visual Question Answering on Multiple Remote Sensing Image Modalities](https://arxiv.org/pdf/2505.15401)
+- [Emerging Properties in Unified Multimodal Pretraining](https://arxiv.org/pdf/2505.14683)
+- [Visionary-R1: Mitigating Shortcuts in Visual Reasoning with Reinforcement Learning](https://arxiv.org/pdf/2505.14677)
+- [Beyond Words: Multimodal LLM Knows When to Speak](https://arxiv.org/pdf/2505.14654)
+- [Investigating and Enhancing the Robustness of Large Multimodal Models Against Temporal Inconsistency](https://arxiv.org/pdf/2505.14405)
+- [DeepEyes: Incentivizing "Thinking with Images" via Reinforcement Learning](https://arxiv.org/pdf/2505.14362)
+- [Vision-Language Modeling Meets Remote Sensing: Models, Datasets and Perspectives](https://arxiv.org/pdf/2505.14361)
+- [Speculative Decoding Reimagined for Multimodal Large Language Models](https://arxiv.org/pdf/2505.14260)
+- [Aligning Attention Distribution to Information Flow for Hallucination Mitigation in Large Vision-Language Models](https://arxiv.org/pdf/2505.14257)
+- [Visual Agentic Reinforcement Fine-Tuning](https://arxiv.org/pdf/2505.14246)
+- [UniVG-R1: Reasoning Guided Universal Visual Grounding with Reinforcement Learning](https://arxiv.org/pdf/2505.14231)
+- [G1: Bootstrapping Perception and Reasoning Abilities of Vision-Language Model via Reinforcement Learning](https://arxiv.org/pdf/2505.13426)
+- [From Local Details to Global Context: Advancing Vision-Language Models with Attention-Based Selection](https://arxiv.org/pdf/2505.13233)
+- [Uniformity First: Uniformity-aware Test-time Adaptation of Vision-language Models against Image Corruption](https://arxiv.org/pdf/2505.12912)
 - [End-to-End Vision Tokenizer Tuning](https://arxiv.org/pdf/2505.10562)
 - [MathCoder-VL: Bridging Vision and Code for Enhanced Multimodal Mathematical Reasoning](https://arxiv.org/pdf/2505.10557)
 - [Exploring Implicit Visual Misunderstandings in Multimodal Large Language Models through Attention Analysis](https://arxiv.org/pdf/2505.10541)
@@ -236,6 +273,7 @@ A comprehensive technical resource for researchers exploring **Vision-Language M
 - **COCO Retrieval** (2015) - [Standard benchmark for cross-modal matching](https://cocodataset.org/#home) 
 
 #### Visual Question Answering (VQA)
+- **MedFrameQA** - [A Multi-Image Medical VQA Benchmark for Clinical Reasoning](https://ucsc-vlaa.github.io/MedFrameQA/)
 - **VQA** - [Visual Question Answering dataset](https://visualqa.org/)
 - **GQA** - [Dataset for compositional question answering](https://paperswithcode.com/dataset/gqa)
 - **OK-VQA** - [11K open-ended questions requiring external knowledge](https://okvqa.allenai.org/)
@@ -246,6 +284,8 @@ A comprehensive technical resource for researchers exploring **Vision-Language M
 - **LLaVA Instruct** - [260K image-conversation pairs for instruction fine-tuning](https://huggingface.co/datasets/HuggingFaceH4/llava-instruct-mix-vsft)  
 
 #### **Additional Datasets**
+- **FragFake** - [A Dataset for Fine-Grained Detection of Edited Images with Vision Language Models](https://huggingface.co/datasets/Vincent-HKUSTGZ/FragFake)
+- **The P3 dataset** - [Pixels, Points and Polygons for Multimodal Building Vectorization](https://github.com/raphaelsulzer/PixelsPointsPolygons.git)
 - **ReXGradient-160K** - [ A Large-Scale Publicly Available Dataset of Chest Radiographs with Free-text Reports](https://huggingface.co/datasets/rajpurkarlab/ReXGradient-160K)
 - **Open Images** - [9M images with multi-label annotations](https://docs.ultralytics.com/datasets/detect/open-images-v7/)  
 - **Hateful Memes** - [10K memes for hate speech detection](https://paperswithcode.com/dataset/hateful-memes)  
@@ -256,6 +296,8 @@ A comprehensive technical resource for researchers exploring **Vision-Language M
 
 ## 🏆 Benchmarks
 
+- **RBench-V** (2025) - [A Primary Assessment for Visual Reasoning Models with Multi-modal Outputs](https://evalmodels.github.io/rbenchv/)
+- **LENS** (2025) - [A multi-level benchmark explicitly designed to assess MLLMs across three hierarchical tiers—Perception, Understanding, and Reasoning—encompassing 8 tasks and 12 real-world scenarios.](https://github.com/Lens4MLLMs/LENS.git)
 - **On Path to Multimodal Generalist: General-Level and General-Bench** (2025) - [Does higher performance across tasks indicate a stronger capability of MLLM, and closer to AGI?](https://arxiv.org/pdf/2505.04620)
 - **VisuLogic** (2025) - [Benchmark for Evaluating Visual Reasoning in Multi-modal Large Language Models](https://visulogic-benchmark.github.io/VisuLogic/) 
 - **V2R-Bench** (2025) - [Holistically Evaluating LVLM Robustness to Fundamental Visual Variations](https://arxiv.org/pdf/2504.16727)
@@ -516,7 +558,7 @@ optimizer = DPAdam(
 - Enhanced environmental understanding
 - Improved interaction through visual and linguistic cues  
 
-#### **Augmented and Virtual Reality (AR/VR)**
+#### **→ Augmented and Virtual Reality (AR/VR)**
 - Real-world visual pattern analysis
 - Overlaying relevant digital information  
 
