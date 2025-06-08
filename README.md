@@ -62,6 +62,34 @@ A comprehensive technical resource for researchers exploring **Vision-Language M
 - **FLAVA** - [Unified transformer architecture with separate image and text encoders plus a multimodal encoder, designed to handle vision, language, and multimodal reasoning tasks simultaneously](https://arxiv.org/pdf/2112.04482)
 
 ### 📌**Recent papers (2025)**
+- [SparseMM: Head Sparsity Emerges from Visual Concept Responses in MLLMs](https://arxiv.org/pdf/2506.05344)
+- [Refer to Anything with Vision-Language Prompts](https://arxiv.org/pdf/2506.05342)
+- [VideoMolmo: Spatio-Temporal Grounding Meets Pointing](https://arxiv.org/pdf/2506.05336)
+- [MINT-CoT: Enabling Interleaved Visual Tokens in Mathematical Chain-of-Thought Reasoning]()
+- [Does Your 3D Encoder Really Work? When Pretrain-SFT from 2D VLMs Meets 3D VLMs](https://arxiv.org/pdf/2506.05318)
+- [MARBLE: Material Recomposition and Blending in CLIP-Space](https://arxiv.org/pdf/2506.05313)
+- [Perceive Anything: Recognize, Explain, Caption, and Segment Anything in Images and Videos](https://arxiv.org/pdf/2506.05302)
+- [Struct2D: A Perception-Guided Framework for Spatial Reasoning in Large Multimodal Models](https://arxiv.org/pdf/2506.04220)
+- [Language-Image Alignment with Fixed Text Encoders](https://arxiv.org/pdf/2506.04209)
+- [Mitigating Hallucinations in Large Vision-Language Models via Entity-Centric Multimodal Preference Optimization](https://arxiv.org/pdf/2506.04039)
+- [Vocabulary-free few-shot learning for Vision-Language Models](https://arxiv.org/pdf/2506.04005)
+- [UniWorld-V1: High-Resolution Semantic Encoders for Unified Visual Understanding and Generation](https://arxiv.org/pdf/2506.03147)
+- [Targeted Forgetting of Image Subgroups in CLIP Models](https://arxiv.org/pdf/2506.03117)
+- [Revisiting Continuity of Image Tokens for Cross-domain Few-shot Learning](https://arxiv.org/pdf/2506.03110)
+- [EgoVLM: Policy Optimization for Egocentric Video Understanding](https://arxiv.org/pdf/2506.03097)
+- [FuseLIP: Multimodal Embeddings via Early Fusion of Discrete Tokens](https://arxiv.org/pdf/2506.03096)
+- [FuseLIP: Multimodal Embeddings via Early Fusion of Discrete Tokens](https://arxiv.org/pdf/2506.03096)
+- [Dual-Process Image Generation](https://arxiv.org/pdf/2506.01955)
+- [MLLMs Need 3D-Aware Representation Supervision for Scene Understanding](https://arxiv.org/pdf/2506.01946)
+- [MoDA: Modulation Adapter for Fine-Grained Visual Grounding in Instructional MLLMs](https://arxiv.org/pdf/2506.01850)
+- [R2SM: Referring and Reasoning for Selective Masks](https://arxiv.org/pdf/2506.01795)
+- [Agent-X: Evaluating Deep Multimodal Reasoning in Vision-Centric Agentic Tasks](https://arxiv.org/pdf/2505.24876)
+- [ProxyThinker: Test-Time Guidance through Small Visual Reasoners](https://arxiv.org/pdf/2505.24872)
+- [Time Blindness: Why Video-Language Models Can't See What Humans Can?](https://arxiv.org/pdf/2505.24867)
+- [Vision LLMs Are Bad at Hierarchical Visual Understanding, and LLMs Are the Bottleneck](https://arxiv.org/pdf/2505.24840)
+- [CL-LoRA: Continual Low-Rank Adaptation for Rehearsal-Free Class-Incremental Learning](https://arxiv.org/pdf/2505.24816)
+- [Reinforcing Video Reasoning with Focused Thinking](https://arxiv.org/pdf/2505.24718)
+- [Conformal Prediction for Zero-Shot Models](https://arxiv.org/pdf/2505.24693)
 - [Argus: Vision-Centric Reasoning with Grounded Chain-of-Thought](https://arxiv.org/pdf/2505.23766)
 - [Impromptu VLA: Open Weights and Open Data for Driving Vision-Language-Action Models](https://arxiv.org/pdf/2505.23757)
 - [Spatial-MLLM: Boosting MLLM Capabilities in Visual-based Spatial Intelligence](https://arxiv.org/pdf/2505.23747)
@@ -310,6 +338,7 @@ A comprehensive technical resource for researchers exploring **Vision-Language M
 - **LLaVA Instruct** - [260K image-conversation pairs for instruction fine-tuning](https://huggingface.co/datasets/HuggingFaceH4/llava-instruct-mix-vsft)  
 
 #### **Additional Datasets**
+- **VideoMathQA** - [Benchmarking Mathematical Reasoning via Multimodal Understanding in Videos](https://mbzuai-oryx.github.io/VideoMathQA/#leaderboard-2)
 - **FragFake** - [A Dataset for Fine-Grained Detection of Edited Images with Vision Language Models](https://huggingface.co/datasets/Vincent-HKUSTGZ/FragFake)
 - **The P3 dataset** - [Pixels, Points and Polygons for Multimodal Building Vectorization](https://github.com/raphaelsulzer/PixelsPointsPolygons.git)
 - **ReXGradient-160K** - [ A Large-Scale Publicly Available Dataset of Chest Radiographs with Free-text Reports](https://huggingface.co/datasets/rajpurkarlab/ReXGradient-160K)
@@ -322,6 +351,9 @@ A comprehensive technical resource for researchers exploring **Vision-Language M
 
 ## 🏆 Benchmarks
 
+- **AV-Reasoner** (2025) - [Improving and Benchmarking Clue-Grounded Audio-Visual Counting for MLLMs](https://av-reasoner.github.io/)
+- **EOC-Bench** (2025) - [Can MLLMs Identify, Recall, and Forecast Objects in an Egocentric World?](https://circleradon.github.io/EOCBench/)
+- **OmniSpatial** (2025) - [Towards Comprehensive Spatial Reasoning Benchmark for Vision Language Models](https://qizekun.github.io/omnispatial/)
 - **MMSI-Bench** (2025) - [A Benchmark for Multi-Image Spatial Intelligence](https://runsenxu.com/projects/MMSI_Bench/)
 - **RBench-V** (2025) - [A Primary Assessment for Visual Reasoning Models with Multi-modal Outputs](https://evalmodels.github.io/rbenchv/)
 - **LENS** (2025) - [A multi-level benchmark explicitly designed to assess MLLMs across three hierarchical tiers—Perception, Understanding, and Reasoning—encompassing 8 tasks and 12 real-world scenarios.](https://github.com/Lens4MLLMs/LENS.git)
