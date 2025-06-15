@@ -62,6 +62,15 @@ A comprehensive technical resource for researchers exploring **Vision-Language M
 - **FLAVA** - [Unified transformer architecture with separate image and text encoders plus a multimodal encoder, designed to handle vision, language, and multimodal reasoning tasks simultaneously](https://arxiv.org/pdf/2112.04482)
 
 ### 📌**Recent papers (2025)**
+- [Beyond Attention or Similarity: Maximizing Conditional Diversity for Token Pruning in MLLMs](https://arxiv.org/pdf/2506.10967)
+- [IQE-CLIP: Instance-aware Query Embedding for Zero-/Few-shot Anomaly Detection in Medical Domain](https://arxiv.org/pdf/2506.10730)
+- [Reinforcing Spatial Reasoning in Vision-Language Models with Interwoven Thinking and Visual Drawing](https://arxiv.org/pdf/2506.09965)
+- [Autoregressive Semantic Visual Reconstruction Helps VLMs Understand Better](https://arxiv.org/pdf/2506.09040)
+- [Vision Transformers Don't Need Trained Registers](https://arxiv.org/pdf/2506.08010)
+- [CoMemo: LVLMs Need Image Context with Image Memory](https://arxiv.org/pdf/2506.06279)
+- [Visual Graph Arena: Evaluating Visual Conceptualization of Vision and Multimodal Large Language Models](https://arxiv.org/pdf/2506.06242)
+- [Challenging Vision-Language Models with Surgical Data: A New Dataset and Broad Benchmarking Study](https://arxiv.org/pdf/2506.06232)
+- [Full Conformal Adaptation of Medical Vision-Language Models](https://arxiv.org/pdf/2506.06076)
 - [SparseMM: Head Sparsity Emerges from Visual Concept Responses in MLLMs](https://arxiv.org/pdf/2506.05344)
 - [Refer to Anything with Vision-Language Prompts](https://arxiv.org/pdf/2506.05342)
 - [VideoMolmo: Spatio-Temporal Grounding Meets Pointing](https://arxiv.org/pdf/2506.05336)
@@ -335,7 +344,13 @@ A comprehensive technical resource for researchers exploring **Vision-Language M
 - **TextVQA** - [Dataset to read and reason about text in images](https://textvqa.org/)
  
 #### **Instruction Tuning**
-- **LLaVA Instruct** - [260K image-conversation pairs for instruction fine-tuning](https://huggingface.co/datasets/HuggingFaceH4/llava-instruct-mix-vsft)  
+- **LLaVA Instruct** - [260K image-conversation pairs for instruction fine-tuning](https://huggingface.co/datasets/HuggingFaceH4/llava-instruct-mix-vsft)
+
+#### **Bias**
+- **MM-RLHF** - [Contains 120,000 finely annotated preference comparison pairs, including scores, rankings, textual descriptions of reasons, and tie annotations across three dimensions](https://mm-rlhf.github.io/)
+- **Chicago Face Dataset (CFD)** - [Provides facial images of different races and genders, helps analyzing how models classify and identify faces of various demographic groups and uncover potential biases](https://www.chicagofaces.org/)
+- **SocialCounterfactuals** - [Dataset containing 171,000 image-text pairs generated using an over-generate-then-filter method](https://huggingface.co/datasets/Intel/SocialCounterfactuals)
+- **StereoSet** - [Dataset targeting stereotypical bias in multimodal models](https://huggingface.co/datasets/McGill-NLP/stereoset)
 
 #### **Additional Datasets**
 - **VideoMathQA** - [Benchmarking Mathematical Reasoning via Multimodal Understanding in Videos](https://mbzuai-oryx.github.io/VideoMathQA/#leaderboard-2)
