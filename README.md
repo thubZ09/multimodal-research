@@ -10,6 +10,8 @@ A comprehensive technical resource for researchers exploring **Vision-Language M
 ## 📚 Seminal Papers/Models (Post-2021)
 
 ### 2025
+- **OmniGen2** - [Hybrid decoder + VAE. Trained on LLaVA-OneVision & SAM-LLaVA mixes, supports any-to-any generation](https://github.com/VectorSpaceLab/OmniGen2.git)
+- **BLIP3-o** - [Decoder-only, 4B & 8B variants. Fine-tuned on 60K GPT-4o-generated instruction-image pairs, excels at open-ended captioning and creative editing](https://github.com/JiuhaiChen/BLIP3o.git)
 - **Eagle 2.5** - [Decoder-only architecture with 8B parameters, designed for long-context multimodal learning, featuring a context window that can be dynamically adjusted based on input length. Utilizes progressive post-training to gradually increase the model's context window. Achieves 72.4% on Video-MME with 512 input frames, matching the results of top-tier commercial models like GPT-4o and large-scale open-source models like Qwen2.5-VL-72B and InternVL2.5-78B](https://github.com/NVlabs/EAGLE?tab=readme-ov-file)
 - **InternVL3** - [Follows the "ViT-MLP-LLM" paradigm, integrating InternViT with various pre-trained LLMs. Comprises seven models ranging from 1B to 78B parameters. Supports text, images, and videos simultaneously. Features Variable Visual Position Encoding (V2PE) for better long-context understanding. Utilizes pixel unshuffling and dynamic resolution strategy for efficient image processing. Training data includes tool usage, GUI operations, scientific diagrams, etc. Can be deployed as an OpenAI-compatible API via LMDeploy's api_server](https://huggingface.co/OpenGVLab/InternVL3-78B)
 - **Llama 3.2 Vision** - [Decoder-only architecture with 11B and 90B parameters, supports 8 languages - English, German, Italian, Portuguese, Hindi, Spanish, and Thai. NOTE: for image+text applications, English is the only language supported. Features a 128k-token context window, optimized for multimodal complex reasoning](https://huggingface.co/meta-llama/Llama-3.2-11B-Vision)
@@ -62,6 +64,9 @@ A comprehensive technical resource for researchers exploring **Vision-Language M
 - **FLAVA** - [Unified transformer architecture with separate image and text encoders plus a multimodal encoder, designed to handle vision, language, and multimodal reasoning tasks simultaneously](https://arxiv.org/pdf/2112.04482)
 
 ### 📌**Recent papers (2025)**
+- [Integrated Structural Prompt Learning for Vision-Language Models](https://arxiv.org/pdf/2507.05677)
+- [Open Vision Reasoner: Transferring Linguistic Cognitive Behavior for Visual Reasoning](https://arxiv.org/pdf/2507.05255)
+- [Visual Contextual Attack: Jailbreaking MLLMs with Image-Driven Context Injection](https://arxiv.org/pdf/2507.02844)
 - [Mitigating Hallucination of Large Vision-Language Models via Dynamic Logits Calibration](https://arxiv.org/pdf/2506.21509)
 - [ShotBench: Expert-Level Cinematic Understanding in Vision-Language Models](https://arxiv.org/pdf/2506.21356)
 - [Seeing is Believing? Mitigating OCR Hallucinations in Multimodal Large Language Models](https://arxiv.org/pdf/2506.20168)
