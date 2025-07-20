@@ -64,6 +64,16 @@ A comprehensive technical resource for researchers exploring **Vision-Language M
 - **FLAVA** - [Unified transformer architecture with separate image and text encoders plus a multimodal encoder, designed to handle vision, language, and multimodal reasoning tasks simultaneously](https://arxiv.org/pdf/2112.04482)
 
 ### 📌**Recent papers (2025)**
+- [VisionThink: Smart and Efficient Vision Language Model via Reinforcement Learning](https://arxiv.org/pdf/2507.13348)
+- [SE-VLN: A Self-Evolving Vision-Language Navigation Framework Based on Multimodal Large Language Models](https://arxiv.org/pdf/2507.13152)
+- [GLAD: Generalizable Tuning for Vision-Language Models](https://arxiv.org/pdf/2507.13089)
+- [Generate to Ground: Multimodal Text Conditioning Boosts Phrase Grounding in Medical Vision-Language Models](https://arxiv.org/pdf/2507.12236)
+- [MGFFD-VLM: Multi-Granularity Prompt Learning for Face Forgery Detection with VLM](https://arxiv.org/pdf/2507.12232)
+- [How Far Have Medical Vision-Language Models Come? A Comprehensive Benchmarking Study](https://arxiv.org/pdf/2507.11200)
+- [Assessing Color Vision Test in Large Vision-language Models](https://arxiv.org/pdf/2507.11153)
+- [Beyond Graph Model: Reliable VLM Fine-Tuning via Random Graph Adapter](https://arxiv.org/pdf/2507.10355)
+- [BayesTTA: Continual-Temporal Test-Time Adaptation for Vision-Language Models via Gaussian Discriminant Analysis](https://arxiv.org/pdf/2507.08607)
+- [Multi-modal Mutual-Guidance Conditional Prompt Learning for Vision-Language Models](https://arxiv.org/pdf/2507.08410)
 - [Integrated Structural Prompt Learning for Vision-Language Models](https://arxiv.org/pdf/2507.05677)
 - [Open Vision Reasoner: Transferring Linguistic Cognitive Behavior for Visual Reasoning](https://arxiv.org/pdf/2507.05255)
 - [Visual Contextual Attack: Jailbreaking MLLMs with Image-Driven Context Injection](https://arxiv.org/pdf/2507.02844)
