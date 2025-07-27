@@ -1,5 +1,5 @@
 # Multimodal/VLMs Research Hub 🌐
-[![Last Updated](https://img.shields.io/badge/Updated-May%202025-brightpurple)](https://github.com/your-username/awesome-vision-language-models/commits/main)
+[![Last Updated](https://img.shields.io/badge/Updated-July%202025-brightpurple)](https://github.com/your-username/awesome-vision-language-models/commits/main)
 [![License](https://img.shields.io/badge/license-MIT-blue)](https://github.com/your-username/awesome-vision-language-models/blob/main/LICENSE)
 [![Contributions](https://img.shields.io/badge/Contributions-Welcome-yellow)](https://github.com/your-username/awesome-vision-language-models/blob/main/LICENSE)
 
@@ -64,6 +64,17 @@ A comprehensive technical resource for researchers exploring **Vision-Language M
 - **FLAVA** - [Unified transformer architecture with separate image and text encoders plus a multimodal encoder, designed to handle vision, language, and multimodal reasoning tasks simultaneously](https://arxiv.org/pdf/2112.04482)
 
 ### 📌**Recent papers (2025)**
+- [BetterCheck: Towards Safeguarding VLMs for Automotive Perception Systems](https://arxiv.org/pdf/2507.17722)
+- [Probing Vision-Language Understanding through the Visual Entailment Task: promises and pitfalls](https://arxiv.org/pdf/2507.17467)
+- [Enhancing Remote Sensing Vision-Language Models Through MLLM and LLM-Based High-Quality Image-Text Dataset Generation](https://arxiv.org/pdf/2507.16716)
+- [Quality Text, Robust Vision: The Role of Language in Enhancing Visual Robustness of Vision-Language Models](https://arxiv.org/pdf/2507.16257)
+- [True Multimodal In-Context Learning Needs Attention to the Visual Context](https://arxiv.org/pdf/2507.15807)
+- [Extracting Visual Facts from Intermediate Layers for Mitigating Hallucinations in Multimodal Large Language Models](https://arxiv.org/pdf/2507.15652)
+- [HOLa: Zero-Shot HOI Detection with Low-Rank Decomposed VLM Feature Adaptation](https://arxiv.org/pdf/2507.15542)
+- [One Last Attention for Your Vision-Language Model](https://arxiv.org/pdf/2507.15480)
+- [VLA-Mark: A cross modal watermark for large vision-language alignment model](https://arxiv.org/pdf/2507.14067)
+- [When Seeing Overrides Knowing: Disentangling Knowledge Conflicts in Vision-Language Models](https://arxiv.org/pdf/2507.13868)
+- [Teaching Vision-Language Models to Ask: Resolving Ambiguity in Visual Questions](https://arxiv.org/pdf/2507.13773)
 - [VisionThink: Smart and Efficient Vision Language Model via Reinforcement Learning](https://arxiv.org/pdf/2507.13348)
 - [SE-VLN: A Self-Evolving Vision-Language Navigation Framework Based on Multimodal Large Language Models](https://arxiv.org/pdf/2507.13152)
 - [GLAD: Generalizable Tuning for Vision-Language Models](https://arxiv.org/pdf/2507.13089)
@@ -392,6 +403,8 @@ A comprehensive technical resource for researchers exploring **Vision-Language M
 - **COCO Retrieval** (2015) - [Standard benchmark for cross-modal matching](https://cocodataset.org/#home) 
 
 #### Visual Question Answering (VQA)
+- **ReasonVQA** - [ Multi-hop Reasoning Benchmark with Structural Knowledge for VQA](https://duong-tr.github.io/ReasonVQA/)
+- **ClearVQA** - [Ambiguous visual questions categorized into three types: referential ambiguity, intent underspecification, and spelling ambiguity](https://huggingface.co/datasets/jian0418/ClearVQA)
 - **MedFrameQA** - [A Multi-Image Medical VQA Benchmark for Clinical Reasoning](https://ucsc-vlaa.github.io/MedFrameQA/)
 - **VQA** - [Visual Question Answering dataset](https://visualqa.org/)
 - **GQA** - [Dataset for compositional question answering](https://paperswithcode.com/dataset/gqa)
@@ -422,6 +435,7 @@ A comprehensive technical resource for researchers exploring **Vision-Language M
 
 ## 🏆 Benchmarks
 
+- **EgoExoBench** (2025) - [Designed to evaluate cross-view video understanding in MLLMs, contains paired egocentric–exocentric videos and over 7,300 MCQs across 11 subtasks]
 - **AV-Reasoner** (2025) - [Improving and Benchmarking Clue-Grounded Audio-Visual Counting for MLLMs](https://av-reasoner.github.io/)
 - **EOC-Bench** (2025) - [Can MLLMs Identify, Recall, and Forecast Objects in an Egocentric World?](https://circleradon.github.io/EOCBench/)
 - **OmniSpatial** (2025) - [Towards Comprehensive Spatial Reasoning Benchmark for Vision Language Models](https://qizekun.github.io/omnispatial/)
