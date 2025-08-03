@@ -64,6 +64,17 @@ A comprehensive technical resource for researchers exploring **Vision-Language M
 - **FLAVA** - [Unified transformer architecture with separate image and text encoders plus a multimodal encoder, designed to handle vision, language, and multimodal reasoning tasks simultaneously](https://arxiv.org/pdf/2112.04482)
 
 ### 📌**Recent papers (2025)**
+- [See Different, Think Better: Visual Variations Mitigating Hallucinations in LVLMs](https://arxiv.org/pdf/2507.22003)
+- [Few-Shot Vision-Language Reasoning for Satellite Imagery via Verifiable Rewards](https://arxiv.org/pdf/2507.21745)
+- [Security Tensors as a Cross-Modal Bridge: Extending Text-Aligned Safety to Vision in LVLM](https://arxiv.org/pdf/2507.20994)
+- [DriveAgent-R1: Advancing VLM-based Autonomous Driving with Hybrid Thinking and Active Perception](https://arxiv.org/pdf/2507.20879)
+- [METEOR: Multi-Encoder Collaborative Token Pruning for Efficient Vision Language Models](https://arxiv.org/pdf/2507.20842)
+- [TransPrune: Token Transition Pruning for Efficient Large Vision-Language Model](https://arxiv.org/pdf/2507.20630)
+- [EA-ViT: Efficient Adaptation for Elastic Vision Transformer](https://arxiv.org/pdf/2507.19360)
+- [SimMLM: A Simple Framework for Multi-modal Learning with Missing Modality](https://arxiv.org/pdf/2507.19264)
+- [MixA-Q: Revisiting Activation Sparsity for Vision Transformers from a Mixed-Precision Quantization Perspective](https://arxiv.org/pdf/2507.19131)
+- [LISA: A Layer-wise Integration and Suppression Approach for Hallucination Mitigation in Multimodal Large Language Models](https://arxiv.org/pdf/2507.19110)
+- [Negation-Aware Test-Time Adaptation for Vision-Language Models](https://arxiv.org/pdf/2507.19064)
 - [BetterCheck: Towards Safeguarding VLMs for Automotive Perception Systems](https://arxiv.org/pdf/2507.17722)
 - [Probing Vision-Language Understanding through the Visual Entailment Task: promises and pitfalls](https://arxiv.org/pdf/2507.17467)
 - [Enhancing Remote Sensing Vision-Language Models Through MLLM and LLM-Based High-Quality Image-Text Dataset Generation](https://arxiv.org/pdf/2507.16716)
