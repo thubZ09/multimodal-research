@@ -7,7 +7,7 @@ A comprehensive technical resource for researchers exploring **Vision-Language M
 
 ---
 
-## 📚 Seminal models (Post-2021)
+## 🔗 Seminal models (Post-2021)
 
 ### 2025
 - **OmniGen2** - [Hybrid decoder + VAE. Trained on LLaVA-OneVision & SAM-LLaVA mixes, supports any-to-any generation](https://github.com/VectorSpaceLab/OmniGen2.git)
@@ -137,6 +137,7 @@ A comprehensive technical resource for researchers exploring **Vision-Language M
 - **Hateful Memes** - [10K memes for hate speech detection](https://paperswithcode.com/dataset/hateful-memes)  
 - **EuroSAT** - [27K satellite images for land use classification](https://github.com/phelber/eurosat)
 - **MathVista** - [Evaluating Math Reasoning in Visual Contexts](https://mathvista.github.io/)
+- **Multimodal ArXiv** - [A Dataset for Improving Scientific Comprehension of Large Vision-Language Models](https://mm-arxiv.github.io/)
 
 ---
 
