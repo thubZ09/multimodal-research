@@ -127,7 +127,6 @@
 - **FILIP300M** - [300 million image-text pairs](https://openreview.net/forum?id=cpDhcsEDC2)
 - **WebLI** - [12 billion image-text pairs](https://paperswithcode.com/dataset/webli)
 
----
 #### Image Classification
 <a id="image-classification"></a>
 
@@ -192,6 +191,7 @@
 #### **Additional Datasets**
 <a id="additional-datasets"></a>
 
+- **SpatialLadder-26k** - [A multimodal dataset containing 26,610 samples spanning object localization, single-image, multi-view, and video spatial reasoning tasks](https://huggingface.co/datasets/hongxingli/SpatialLadder-26k)
 - **VideoMathQA** - [Benchmarking Mathematical Reasoning via Multimodal Understanding in Videos](https://mbzuai-oryx.github.io/VideoMathQA/#leaderboard-2)
 - **FragFake** - [A Dataset for Fine-Grained Detection of Edited Images with Vision Language Models](https://huggingface.co/datasets/Vincent-HKUSTGZ/FragFake)
 - **The P3 dataset** - [Pixels, Points and Polygons for Multimodal Building Vectorization](https://github.com/raphaelsulzer/PixelsPointsPolygons.git)
@@ -205,6 +205,8 @@
 ## 🏆 Benchmarks
 <a id="benchmarks"></a>
 
+- **SciVideoBench** (2025) - [Benchmark for scientific video reasoning, covering disciplines in Physics, Chemistry, Biology, and Medicine](https://huggingface.co/datasets/groundmore/scivideobench)
+- **SPBench** (2025) - [Spatial Perception and Reasoning Benchmark](https://huggingface.co/datasets/hongxingli/SPBench)
 - **EgoExoBench** (2025) - [Designed to evaluate cross-view video understanding in MLLMs, contains paired egocentric–exocentric videos and over 7,300 MCQs across 11 subtasks]
 - **AV-Reasoner** (2025) - [Improving and Benchmarking Clue-Grounded Audio-Visual Counting for MLLMs](https://av-reasoner.github.io/)
 - **EOC-Bench** (2025) - [Can MLLMs Identify, Recall, and Forecast Objects in an Egocentric World?](https://circleradon.github.io/EOCBench/)
