@@ -150,7 +150,7 @@
 - **ADE20k** - [25K images with 150 object/part categories](https://www.kaggle.com/datasets/awsaf49/ade20k-dataset)
 - **PASCAL VOC** - [Visual Object Classes dataset](https://paperswithcode.com/dataset/pascal-voc)  
 
-#### Action Recognition
+#### Action Recognition and 
 <a id="action-recognition"></a>
 
 - **UCF101** - [13K video clips across 101 actions](https://www.crcv.ucf.edu/data/UCF101.php)  
@@ -166,6 +166,7 @@
 #### Visual Question Answering (VQA)
 <a id="visual-question-answering-vqa"></a>
 
+- **Situat3DChange** - [developed for perception-action modeling in dynamic 3D environments](https://huggingface.co/datasets/lrp123/Situat3DChange)
 - **ReasonVQA** - [ Multi-hop Reasoning Benchmark with Structural Knowledge for VQA](https://duong-tr.github.io/ReasonVQA/)
 - **ClearVQA** - [Ambiguous visual questions categorized into three types: referential ambiguity, intent underspecification, and spelling ambiguity](https://huggingface.co/datasets/jian0418/ClearVQA)
 - **MedFrameQA** - [A Multi-Image Medical VQA Benchmark for Clinical Reasoning](https://ucsc-vlaa.github.io/MedFrameQA/)
@@ -232,6 +233,7 @@
 - **ViLCo-Bench** (2024) - [Continual learning for video-text tasks](https://github.com/cruiseresearchgroup/ViLCo)  
 
 #### **Dynamic Evaluation**
+- **Spatial-DISE** (2025) - [Evaluating Spatial Reasoning in Vision-Language Models](https://arxiv.org/pdf/2510.13394)
 - **LiveXiv** (2024) - [Monthly-changing benchmark to prevent overfitting, estimates true model capabilities](https://arxiv.org/abs/2410.10783)
 - **MM-Vet** (2023) - [Evaluating Large Multimodal Models for Integrated Capabilities](https://github.com/yuweihao/MM-Vet)  
 
