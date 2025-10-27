@@ -208,7 +208,7 @@
 
 - **SciVideoBench** (2025) - [Benchmark for scientific video reasoning, covering disciplines in Physics, Chemistry, Biology, and Medicine](https://huggingface.co/datasets/groundmore/scivideobench)
 - **SPBench** (2025) - [Spatial Perception and Reasoning Benchmark](https://huggingface.co/datasets/hongxingli/SPBench)
-- **EgoExoBench** (2025) - [Designed to evaluate cross-view video understanding in MLLMs, contains paired egocentric–exocentric videos and over 7,300 MCQs across 11 subtasks]
+- **EgoExoBench** (2025) - [Designed to evaluate cross-view video understanding in MLLMs, contains paired egocentric–exocentric videos and over 7,300 MCQs across 11 subtasks](https://arxiv.org/abs/2507.18342)
 - **AV-Reasoner** (2025) - [Improving and Benchmarking Clue-Grounded Audio-Visual Counting for MLLMs](https://av-reasoner.github.io/)
 - **EOC-Bench** (2025) - [Can MLLMs Identify, Recall, and Forecast Objects in an Egocentric World?](https://circleradon.github.io/EOCBench/)
 - **OmniSpatial** (2025) - [Towards Comprehensive Spatial Reasoning Benchmark for Vision Language Models](https://qizekun.github.io/omnispatial/)
@@ -228,6 +228,7 @@
 - **MMMU** (2023) - [Massive Multi-discipline Multimodal Understanding benchmark](https://mmmu-benchmark.github.io/)
 
 #### **Video-Language Benchmarks**
+- **MT-Video-Bench** (2025) - [Video Understanding Benchmark for Evaluating Multimodal LLMs in Multi-Turn Dialogues](https://mt-video-bench.github.io/)
 - **Video-MMLU** (2025) - [A Massive Multi-Discipline Lecture Understanding Benchmark](https://enxinsong.com/Video-MMLU-web/)
 - **VLM²-Bench** (2024) - [Evaluates multi-image/video linking capabilities (9 subtasks, 3K+ test cases)](https://vlm2-bench.github.io/)  
 - **ViLCo-Bench** (2024) - [Continual learning for video-text tasks](https://github.com/cruiseresearchgroup/ViLCo)  
