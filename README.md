@@ -4,7 +4,7 @@
 <strong>A living resource for Vision-Language Models & multimodal learning  
 (papers, models, datasets, benchmarks, tools, ethical challenges, research directions)</strong>
 
-[![Last Updated](https://img.shields.io/badge/Updated-October%202025-brightpurple)](https://github.com/your-username/awesome-vision-language-models/commits/main)
+[![Last Updated](https://img.shields.io/badge/Updated-November%202025-brightpurple)](https://github.com/your-username/awesome-vision-language-models/commits/main)
 [![License](https://img.shields.io/badge/license-MIT-blue)](https://github.com/your-username/awesome-vision-language-models/blob/main/LICENSE)
 [![Contributions](https://img.shields.io/badge/Contributions-Welcome-yellow)](https://github.com/your-username/awesome-vision-language-models/blob/main/LICENSE)
 
@@ -27,6 +27,7 @@
   - [Visual Question Answering (VQA)](#visual-question-answering-vqa)
   - [Instruction Tuning](#instruction-tuning)
   - [Bias](#bias)
+  - [Video Understanding](#video-understanding)
   - [Additional Datasets](#additional-datasets)
 - [Benchmarks](#benchmarks)
 - [Research Directions](#research-directions)
@@ -43,8 +44,13 @@
 ### 2025
 <a id="sm-2025"></a>
 
+- **MiniCPM-V** - [On-device friendly (<6 GB RAM), scores 70% on MMBench, supports 30+ languages & 1.8 M-pixel images](https://github.com/OpenBMB/MiniCPM-V.git)
+- **CogVLM2-Video** - [Temporal-aware, based on CogVLM2, adds 3D RoPE for long video clips, reaches 63% on Video-MME](https://cogvlm2-video.github.io/)
+- **Ovis** - [Decoder-only, native dynamic tiling (AnyRes++), 128 k context, SOTA on OCRBench & DocVQA](https://github.com/AIDC-AI/Ovis.git)
+- **MobileCLIP2** - [Image-text pair encoder designed as drop-in vision tower for FastVLM-style pipelines, 2× faster than CLIP-L at same zero-shot top-1](https://huggingface.co/collections/apple/mobileclip2)
 - **FastVLM** - [Uses a hybrid vision encoder "FastViTHD" to reduce token count and encoding latency for high-resolution images, achieves up to 85× faster Time-to-First-Token (TTFT) relative to LLaVA-OneVision, with a vision encoder that is ~3.4× smaller](https://github.com/apple/ml-fastvlm) 
 - **PerceptionLM (PLM)** - [Focuses on detailed image & video understanding, includes “Perception Encoder (PE)” variants that outperform SigLIP2 (image) and InternVideo2 (video) in benchmarks](https://github.com/facebookresearch/perception_models)
+- **DeepSeek-VL2** - [MoE, 3B/16B params (3B active). Efficient for field IoT, scientific diagnostics, outperforms Cambrian-1 on MMMU at half the latency](https://github.com/deepseek-ai/DeepSeek-VL2.git)
 - **Eve** - [Efficient multimodal model with “Elastic Visual Experts,”, 1.8B parameters, How to bridge the performance gap between encoder-free and encoder-based VLMs?](https://github.com/baaivision/EVE)
 - **Kwai Keye-VL** - [Decoder-only, 8B params, Qwen-3-8B backbone. Tailored for short-form vertical-video understanding & mobile-first VQA. Released by Kuaishou, Apache-2.0](https://kwai-keye.github.io/)
 - **Qwen2.5-Omni** - [End-to-end 7B any-to-any model (audio-image-video-text). Shares Qwen2-Audio encoder + Qwen2.5-VL ViT, with unified tokenizer for all modalities, Apache-2.0](https://github.com/QwenLM/Qwen2.5-Omni.git)
@@ -115,6 +121,7 @@
 - **COCO** - [Contains 328K images, each paired with 5 captions for image captioning and VQA](https://huggingface.co/datasets/HuggingFaceM4/COCO)  
 - **Conceptual Captions 3M** - [3M web-mined image-text pairs for pretraining VLMs](https://huggingface.co/datasets/conceptual_captions)
 - **Conceptual Captions 12M** - [12M web-mined image-text pairs for pretraining VLMs](https://github.com/google-research-datasets/conceptual-12m)
+- **Coyo-700M** - [700 M English-centric pairs, aggressive near-dedup + safety filter, used to train FastVLM & InternVL-3](https://huggingface.co/datasets/kakaobrain/coyo-700m)
 - **LAION400M** - [400 million image-text pairs](https://laion.ai/blog/laion-400-open-dataset/)  
 - **LAION-5B** - [5B image-text pairs from Common Crawl for large-scale pretraining](https://laion.ai/blog/laion-5b/)  
 - **ALIGN** - [1.8B noisy alt-text pairs for robust multimodal alignment](https://research.google/blog/align-scaling-up-visual-and-vision-language-representation-learning-with-noisy-text-supervision/)  
@@ -126,6 +133,7 @@
 - **Red Caps** - [12 million image-text pairs](https://huggingface.co/datasets/kdexd/red_caps)
 - **FILIP300M** - [300 million image-text pairs](https://openreview.net/forum?id=cpDhcsEDC2)
 - **WebLI** - [12 billion image-text pairs](https://paperswithcode.com/dataset/webli)
+- **MMC4-Core** - [101M interleaved image-text sequences (≤10 images/doc) extracted from Common-Crawl, permissive ODC-BY licence](https://github.com/allenai/mmc4)
 
 #### Image Classification
 <a id="image-classification"></a>
@@ -160,8 +168,9 @@
 #### Image-Text Retrieval
 <a id="image-text-retrieval"></a>
 
+- **GRIT** (2023) - [a large-scale dataset of Grounded Image-Text pairs](https://huggingface.co/datasets/zzliang/GRIT)
 - **Flickr30k** (2014) - [31K images with dense textual descriptions](https://www.kaggle.com/datasets/adityajn105/flickr30k)  
-- **COCO Retrieval** (2015) - [Standard benchmark for cross-modal matching](https://cocodataset.org/#home) 
+- **COCO Retrieval** (2015) - [Standard benchmark for cross-modal matching](https://cocodataset.org/#home)
 
 #### Visual Question Answering (VQA)
 <a id="visual-question-answering-vqa"></a>
@@ -175,11 +184,14 @@
 - **OK-VQA** - [11K open-ended questions requiring external knowledge](https://okvqa.allenai.org/)
 - **ScienceQA** - [21K science questions for multimodal reasoning](https://scienceqa.github.io/)
 - **TextVQA** - [Dataset to read and reason about text in images](https://textvqa.org/)
+- **VisualReasoner-1M** - [Contains approximately 1 million cases and can be used for training visual reasoning tasks](https://huggingface.co/datasets/orange-sk/VisualReasoner-1M)
  
 #### **Instruction Tuning**
 <a id="instruction-tuning"></a>
 
 - **LLaVA Instruct** - [260K image-conversation pairs for instruction fine-tuning](https://huggingface.co/datasets/HuggingFaceH4/llava-instruct-mix-vsft)
+- **LLaVA-CoT-100k** - [from paper - LLaVA-CoT: Let Vision Language Models Reason Step-by-Step](https://huggingface.co/datasets/Xkev/LLaVA-CoT-100k)
+- **MIMICIT** - [2.8M multimodal instruction-response pairs](https://huggingface.co/datasets/pufanyi/MIMICIT)
 
 #### **Bias**
 <a id="bias"></a>
@@ -189,11 +201,16 @@
 - **SocialCounterfactuals** - [Dataset containing 171,000 image-text pairs generated using an over-generate-then-filter method](https://huggingface.co/datasets/Intel/SocialCounterfactuals)
 - **StereoSet** - [Dataset targeting stereotypical bias in multimodal models](https://huggingface.co/datasets/McGill-NLP/stereoset)
 
+#### **Video Understanding**
+<a id="video-understanding"></a>
+
+- **VideoMathQA** - [Benchmarking Mathematical Reasoning via Multimodal Understanding in Videos](https://mbzuai-oryx.github.io/VideoMathQA/#leaderboard-2)
+- **VideoChat2-IT** - [From the paper - VideoChat: Chat-Centric Video Understanding](https://huggingface.co/datasets/OpenGVLab/VideoChat2-IT)
+
 #### **Additional Datasets**
 <a id="additional-datasets"></a>
 
 - **SpatialLadder-26k** - [A multimodal dataset containing 26,610 samples spanning object localization, single-image, multi-view, and video spatial reasoning tasks](https://huggingface.co/datasets/hongxingli/SpatialLadder-26k)
-- **VideoMathQA** - [Benchmarking Mathematical Reasoning via Multimodal Understanding in Videos](https://mbzuai-oryx.github.io/VideoMathQA/#leaderboard-2)
 - **FragFake** - [A Dataset for Fine-Grained Detection of Edited Images with Vision Language Models](https://huggingface.co/datasets/Vincent-HKUSTGZ/FragFake)
 - **The P3 dataset** - [Pixels, Points and Polygons for Multimodal Building Vectorization](https://github.com/raphaelsulzer/PixelsPointsPolygons.git)
 - **ReXGradient-160K** - [ A Large-Scale Publicly Available Dataset of Chest Radiographs with Free-text Reports](https://huggingface.co/datasets/rajpurkarlab/ReXGradient-160K)
@@ -206,13 +223,10 @@
 ## 🏆 Benchmarks
 <a id="benchmarks"></a>
 
-- **SciVideoBench** (2025) - [Benchmark for scientific video reasoning, covering disciplines in Physics, Chemistry, Biology, and Medicine](https://huggingface.co/datasets/groundmore/scivideobench)
-- **SPBench** (2025) - [Spatial Perception and Reasoning Benchmark](https://huggingface.co/datasets/hongxingli/SPBench)
+- **GEOBench-VLM** (2025) - [For Geospatial Tasks](https://huggingface.co/datasets/aialliance/GEOBench-VLM)
 - **EgoExoBench** (2025) - [Designed to evaluate cross-view video understanding in MLLMs, contains paired egocentric–exocentric videos and over 7,300 MCQs across 11 subtasks](https://arxiv.org/abs/2507.18342)
 - **AV-Reasoner** (2025) - [Improving and Benchmarking Clue-Grounded Audio-Visual Counting for MLLMs](https://av-reasoner.github.io/)
 - **EOC-Bench** (2025) - [Can MLLMs Identify, Recall, and Forecast Objects in an Egocentric World?](https://circleradon.github.io/EOCBench/)
-- **OmniSpatial** (2025) - [Towards Comprehensive Spatial Reasoning Benchmark for Vision Language Models](https://qizekun.github.io/omnispatial/)
-- **MMSI-Bench** (2025) - [A Benchmark for Multi-Image Spatial Intelligence](https://runsenxu.com/projects/MMSI_Bench/)
 - **RBench-V** (2025) - [A Primary Assessment for Visual Reasoning Models with Multi-modal Outputs](https://evalmodels.github.io/rbenchv/)
 - **LENS** (2025) - [A multi-level benchmark explicitly designed to assess MLLMs across three hierarchical tiers—Perception, Understanding, and Reasoning—encompassing 8 tasks and 12 real-world scenarios.](https://github.com/Lens4MLLMs/LENS.git)
 - **On Path to Multimodal Generalist: General-Level and General-Bench** (2025) - [Does higher performance across tasks indicate a stronger capability of MLLM, and closer to AGI?](https://arxiv.org/pdf/2505.04620)
@@ -222,18 +236,27 @@
 - **SVLTA** (2025) - [Benchmarking Vision-Language temporal alignment via synthetic video situation](https://svlta-ai.github.io/SVLTA/)
 - **Fewshot-VLM** (2025) - [Evaluates adaptation to new tasks with limited examples](https://arxiv.org/html/2501.02189v3) 
 - **OCRBench & OCRBench v2** (2024) - [OCR capabilities of Large Multimodal Models](https://github.com/Yuliang-Liu/MultimodalOCR)
+- **MMT-Bench** (2024) - [comprises 31,325 curated multi-choice visual questions from various multimodal scenarios such as vehicle driving and embodied navigation, covering 32 core meta-tasks and 162 subtasks in multimodal understanding](https://mmt-bench.github.io/)
 - **ZeroShot-VLM** (2023) - [Tests generalization to unseen tasks without task-specific training](https://arxiv.org/html/2305.14196v3)  
 - **MetaPrompt** (2023) - [Measures domain generalization with unseen prompts/domains](https://ai.meta.com/research/publications/unibench-visual-reasoning-requires-rethinking-vision-language-beyond-scaling/)
 - **MMBench** (2023) - [Multimodal benchmark](https://github.com/open-compass/MMBench) 
 - **MMMU** (2023) - [Massive Multi-discipline Multimodal Understanding benchmark](https://mmmu-benchmark.github.io/)
+- **ChartQA** (2022) - [Question Answering about charts with visual and logical reasoning](https://github.com/vis-nlp/ChartQA.git)
 
 #### **Video-Language Benchmarks**
+- **RTV-Bench** (2025) - [Real-time video analysis, contains 552 videos (167.2 hours) and 4,631 QA pairs](https://ljungang.github.io/RTV-Bench/)
+- **SciVideoBench** (2025) - [Benchmark for scientific video reasoning, covering disciplines in Physics, Chemistry, Biology, and Medicine](https://huggingface.co/datasets/groundmore/scivideobench)
+- **Video-MME v2** (2025) - [Updated 900 → 1800 videos (508 h), adds audio-only & subtitle-only splits, now the default long-video benchmark for GPT-5 & Gemini-2.5-Pro](https://video-mme.github.io/home_page.html)
 - **MT-Video-Bench** (2025) - [Video Understanding Benchmark for Evaluating Multimodal LLMs in Multi-Turn Dialogues](https://mt-video-bench.github.io/)
 - **Video-MMLU** (2025) - [A Massive Multi-Discipline Lecture Understanding Benchmark](https://enxinsong.com/Video-MMLU-web/)
 - **VLM²-Bench** (2024) - [Evaluates multi-image/video linking capabilities (9 subtasks, 3K+ test cases)](https://vlm2-bench.github.io/)  
 - **ViLCo-Bench** (2024) - [Continual learning for video-text tasks](https://github.com/cruiseresearchgroup/ViLCo)  
 
 #### **Dynamic Evaluation**
+- **VLM4D** (2025) - [4-D spatiotemporal reasoning benchmark](https://vlm4d.github.io/)
+- **OmniSpatial** (2025) - [Towards Comprehensive Spatial Reasoning Benchmark for Vision Language Models](https://qizekun.github.io/omnispatial/)
+- **SPBench** (2025) - [Spatial Perception and Reasoning Benchmark](https://huggingface.co/datasets/hongxingli/SPBench)
+- **MMSI-Bench** (2025) - [A Benchmark for Multi-Image Spatial Intelligence](https://runsenxu.com/projects/MMSI_Bench/)
 - **Spatial-DISE** (2025) - [Evaluating Spatial Reasoning in Vision-Language Models](https://arxiv.org/pdf/2510.13394)
 - **LiveXiv** (2024) - [Monthly-changing benchmark to prevent overfitting, estimates true model capabilities](https://arxiv.org/abs/2410.10783)
 - **MM-Vet** (2023) - [Evaluating Large Multimodal Models for Integrated Capabilities](https://github.com/yuweihao/MM-Vet)  
