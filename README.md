@@ -44,6 +44,11 @@
 ### 2025
 <a id="sm-2025"></a>
 
+- **MiniCPM-o 2.6** - [An 8B parameter multimodal model capable of understanding and generating content across vision, speech, and language modalities](https://huggingface.co/openbmb/MiniCPM-o-2_6)
+- **Janus-Pro-7B** - [autoregressive framework that unifies multimodal understanding and generation](https://huggingface.co/deepseek-ai/Janus-Pro-7B)
+- **Gemma3-4b-it** - [One of the smallest multimodal models with a 128k token context window, supporting 140+ languages](https://huggingface.co/google/gemma-3-4b-it)
+- **Qwen2.5-VL-3B-Instruct** - [capable of handling various tasks ranging from localization to document understanding and agentic tasks, with a context length of up to 32k tokens](https://huggingface.co/Qwen/Qwen2.5-VL-3B-Instruct)
+- **GLM-4.6V** - [GLM-4.6V series model includes two versions: GLM-4.6V (106B), a foundation model designed for cloud and high-performance cluster scenarios, and GLM-4.6V-Flash (9B), a lightweight model optimized for local deployment and low-latency applications](https://huggingface.co/zai-org/GLM-4.6V)
 - **MiniCPM-V** - [On-device friendly (<6 GB RAM), scores 70% on MMBench, supports 30+ languages & 1.8 M-pixel images](https://github.com/OpenBMB/MiniCPM-V.git)
 - **CogVLM2-Video** - [Temporal-aware, based on CogVLM2, adds 3D RoPE for long video clips, reaches 63% on Video-MME](https://cogvlm2-video.github.io/)
 - **Ovis** - [Decoder-only, native dynamic tiling (AnyRes++), 128 k context, SOTA on OCRBench & DocVQA](https://github.com/AIDC-AI/Ovis.git)
@@ -134,6 +139,7 @@
 - **FILIP300M** - [300 million image-text pairs](https://openreview.net/forum?id=cpDhcsEDC2)
 - **WebLI** - [12 billion image-text pairs](https://paperswithcode.com/dataset/webli)
 - **MMC4-Core** - [101M interleaved image-text sequences (≤10 images/doc) extracted from Common-Crawl, permissive ODC-BY licence](https://github.com/allenai/mmc4)
+- **OBELICS** - [An open and curated collection of interleaved image-text web documents used by the Idefics series. contains 141M documents and is suitable for multimodal pretraining](https://huggingface.co/datasets/HuggingFaceM4/OBELICS)
 
 #### Image Classification
 <a id="image-classification"></a>
@@ -143,6 +149,7 @@
 - **Food-101** - [101 food categories with 1,000 images each](https://huggingface.co/datasets/food101)
 - **MNIST** - [Handwritten digit database](https://www.kaggle.com/datasets/hojjatk/mnist-dataset)
 - **Caltech-101** - [101 object categories](https://paperswithcode.com/dataset/caltech-101)
+- **JourneyDB** - [4M QA, caption, and text prompting tasks based on Midjourney images](https://huggingface.co/datasets/JourneyDB/JourneyDB)
 
 #### Object Detection
 <a id="object-detection"></a>
@@ -189,6 +196,7 @@
 #### **Instruction Tuning**
 <a id="instruction-tuning"></a>
 
+- **M³IT** - [Comprises 40 tasks with 400 human-written instructions, containing 2.4M instruction-image instances](https://m3-it.github.io/)
 - **LLaVA Instruct** - [260K image-conversation pairs for instruction fine-tuning](https://huggingface.co/datasets/HuggingFaceH4/llava-instruct-mix-vsft)
 - **LLaVA-CoT-100k** - [from paper - LLaVA-CoT: Let Vision Language Models Reason Step-by-Step](https://huggingface.co/datasets/Xkev/LLaVA-CoT-100k)
 - **MIMICIT** - [2.8M multimodal instruction-response pairs](https://huggingface.co/datasets/pufanyi/MIMICIT)
@@ -236,6 +244,7 @@
 - **SVLTA** (2025) - [Benchmarking Vision-Language temporal alignment via synthetic video situation](https://svlta-ai.github.io/SVLTA/)
 - **Fewshot-VLM** (2025) - [Evaluates adaptation to new tasks with limited examples](https://arxiv.org/html/2501.02189v3) 
 - **OCRBench & OCRBench v2** (2024) - [OCR capabilities of Large Multimodal Models](https://github.com/Yuliang-Liu/MultimodalOCR)
+- **MMMU-Pro** - [contains 28k college-level questions delivered as screenshots with varying fonts/layouts](https://huggingface.co/datasets/MMMU/MMMU_Pro)
 - **MMT-Bench** (2024) - [comprises 31,325 curated multi-choice visual questions from various multimodal scenarios such as vehicle driving and embodied navigation, covering 32 core meta-tasks and 162 subtasks in multimodal understanding](https://mmt-bench.github.io/)
 - **ZeroShot-VLM** (2023) - [Tests generalization to unseen tasks without task-specific training](https://arxiv.org/html/2305.14196v3)  
 - **MetaPrompt** (2023) - [Measures domain generalization with unseen prompts/domains](https://ai.meta.com/research/publications/unibench-visual-reasoning-requires-rethinking-vision-language-beyond-scaling/)
